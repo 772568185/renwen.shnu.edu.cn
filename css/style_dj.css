@@ -1,0 +1,39 @@
+.head {    /*qz 覆盖头文档的内容，主要显示带logo的banner，尺寸为1005-124*/
+    background:url(../image/banner1.jpg);
+}
+.nav {    /*qz 覆盖导航部分 高度定位及背景式样*/
+    background:url(../image/menu2.jpg) repeat-x;
+}
+.nav1 .wp_nav .nav-item{
+    background:url(../image/bgline.jpg) right no-repeat;      /*qz 覆盖实现菜单栏中间的分割线*/
+}
+.dqwz {
+    border-bottom: 1px solid #c52e00;    /*qz 覆盖分割线颜色*/
+}
+.dqwz a {
+    color: #c52e00;   /*qz 覆盖导航路径链接色*/
+}
+.dqwz a:hover {
+    color: #000000     /*qz 覆盖导航路径链接hover颜色*/
+}
+.wzlm {  /*qz 覆盖列表页左边菜单顶部底色*/
+    background-color: #c52e00;
+}
+.lmlb .wp_listcolumn {  /*qz 覆盖二级目录底色 #f4cccc*/
+    background: #f8d2d2;
+}
+.wp_listcolumn .wp_column a { /*QZ：覆盖二级目录链接样式*/
+    color: #c52e00;
+    font-size: 14px;
+    font-weight: normal;
+}
+.lmlb .wp_listcolumn .wp_column a:hover { /*qz 覆盖二级目录选中时背景及字体颜色*/
+    background: #c52e00;
+    color: #fff;
+}
+.list_news .wp_article_list .list_item a:hover {  /*qz 覆盖列表页链接hover颜色*/
+    color: #c52e00;
+}
+.footer {   /*qz 覆盖研究中心以下的版权部分*/
+    background:url(../image/bottom2.jpg) repeat-x;
+}

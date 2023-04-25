@@ -1,0 +1,1522 @@
+
+
+/* CSS Document */
+
+html,body{ width:100%; height:100%; margin:0; padding:0;font-family:'微软雅黑';
+		    min-width:1200px; background-color: #F2F2F2; z-index: 0;}
+ul,form{ margin:0; padding:0; list-style:none;}
+.top,.foot{ width:100%; background-color: white;height: auto}
+.top_1,.top_name,.top_login,.top_banner{ width:100%;}
+.indexMain{ margin-left:auto; margin-right:auto; left: 0 !important;}
+.top{ margin-bottom:10px;}
+.main_guide,.main_service,.main_platform,.main_data,.main_news{ width:100%; margin-bottom:10px;}
+.main_title{ width:100%; height:45px; border-bottom:2px solid #2968b7; line-height:50px; text-indent:20px; font-size:20px; text-align:left; color:#2968b7}
+a{ text-decoration: none;}
+a:HOVER{text-decoration: underline;}
+img{
+	border: 0;
+}
+
+.head{
+	height: 70px;
+	position: relative;
+	background-color: white;
+	width: 100%;
+	text-align: left;
+}
+.head-logo{
+	height: 56px;
+	position: absolute;
+	top:10px;
+	left: 10px;
+	
+	
+}
+.head-title{
+	font-size: 22px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+.head-btn-group{
+	width: 400px;
+	position:absolute;
+	top: 30px;
+	right: 20px;
+	font-size: 16px;;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-style: italic;
+	
+}
+
+
+.head-btn-img{
+	
+}
+.btn1{
+	right: 200px;
+}
+
+.head-btn-ul{
+    float: left;
+    height: 30px;
+    overflow: visible;
+    margin-left: 2px;
+}
+.head-btn-li{
+	margin-right: 10px;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+.btnview:hover{
+	border-bottom: 4px solid #44b9ec;
+}
+
+.head-btn-li a{
+	color: black;
+}
+
+.head-btn-li a:link,.head-btn-li a:visited{
+	text-decoration:none;
+	cursor: pointer;
+	color: black;
+}
+
+.head-btn-line{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/line.png") no-repeat;
+	width: 10px;
+	height: 20px;
+}
+.head-message{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.head-pic{
+	width: 100%;
+	position: relative;
+}
+.head-pic .backgroud{
+	height: auto;
+	width: 100%;
+	z-index: 2;
+}
+
+.index-search{
+	width: 500px;
+	height: 50px;
+	border: 4px solid #44b9ec;
+	left: 50%;
+	margin-left: -250px;
+	top: 50%;
+	margin-top: -25px;
+	position: absolute;
+	z-index: 3;
+}
+.index-search-btn{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 4;
+}
+.index-search-btn :HOVER{
+	cursor: pointer;
+}
+
+.search-text{
+	height: 46px;
+	line-height: 46px;
+	width: 430px;
+	background-color: #FFFAFA;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2px 10px 2px 10px;
+	color: #DCDCDC;
+	border: 0;
+	display: block;
+	offset: 0;
+	float:left
+	
+}
+
+.search-text:FOCUS{
+	color: #343434;
+}
+
+.content{
+	margin: 22px 0 22px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1084px;
+	min-height: 380px;
+	text-align: center;
+	position: relative;
+}
+.hot-bussiness{
+	width:100%;
+	height: 350px;
+	padding: 28px 0 0 0;
+	background-color: white;
+	
+}
+.hot-bussiness-title{
+	font-size: 25px;;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.hot-bussiness-more-link {
+	margin-top: 12px;
+}
+.hot-bussiness-more-link a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#44b9ec;
+	font-weight: bold;
+	text-decoration: none;
+}
+#hotsMore{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#44b9ec;
+	font-weight: bold;
+	text-decoration: none;
+}
+#hotsMore_td a:HOVER{
+	font-size: 16px;
+	color: #4169E1;
+}
+.hot-bussiness-more-link a:HOVER{
+	font-size: 16px;
+	color: #4169E1;
+}
+
+
+.three-other-bussiness{
+	margin: 16px 0 16px 0;
+	width:100%;
+	height: 350px;
+	position: relative;
+}
+.bussiness-item{
+	width: 350px;
+	height: 350px;
+	float:left; 
+	display:inline;
+	position: relative;
+}
+.tjsw-img{
+	height: 350px;
+	width: 350px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/module_recommend.png") no-repeat center;
+	position: absolute;
+	left: 0;
+	z-index: 7;
+}
+
+.yxpt-img{
+	height: 350px;
+	width: 350px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/module_talk.png") no-repeat center;
+	position: absolute;
+	left: 0;
+	z-index: 7;
+}
+.yagk-img{
+	height: 350px;
+	width: 350px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/teacher_module_talk.png") no-repeat center;
+	position: absolute;
+	left: 0;
+	z-index: 7;
+}
+.gdsw-img{
+	height: 350px;
+	width: 350px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/module_more.png") no-repeat center;
+	position: relative;
+	position: absolute;
+	left: 0;
+	z-index: 7;
+}
+.bussiness-content{
+	height: 310px;
+	width: 270px;
+	position: absolute;
+	left: 0;
+	z-index: 6;
+	text-align: center;
+	padding: 30px 40px 10px 40px;
+}
+.bussiness-content .title{
+	height: 25px;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+
+#tjsw{
+	background-color: #4f97d4;
+}
+#yxpt{
+	background-color: #51af45;
+}
+#yagk{
+	background-color: #51af45;
+}
+#gdsw{
+	background-color: #f2a840;
+}
+.bussiness-content .bus-content{
+	height: 230px;
+	color: white;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.bussiness-content a{
+	color: white;
+	text-decoration: none;
+}
+.bussiness-content a:HOVER{
+	font-size: 18px;
+	color: black;
+}
+.bussiness-content .more{
+	height: 25px;
+	color: white;
+	font-size: 14px;
+	padding-top: 10px;
+	border-top: 1px solid white;
+}
+
+.bussiness-content .tjsw li{
+	margin-top: 2px;
+	height: 22px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display: block;
+	white-space:nowrap; 
+	color: white;
+}
+.bussiness-content .tjsw li:HOVER{
+	color: black;
+}
+.bussiness-content .tjsw a:HOVER{
+	font-size: 18px;
+	color: black;
+}
+
+.bussiness-content .yxpt li{
+	margin-top: 2px;
+	height: 55px;
+}
+
+.bussiness-content .yxpt .title-item{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.bussiness-content .yxpt a:HOVER{
+	color: black;
+}
+
+
+.bussiness-content .yagk li{
+	margin-top: 2px;
+	height: 22px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display: block;
+	white-space:nowrap; 
+	color: white;
+}
+
+.bussiness-content .yagk li:HOVER{
+	color:black;
+}
+.bussiness-content .yagk a:HOVER{
+	font-size: 18px;
+	color: black;
+}
+
+.bussiness-content .gdsw li{
+	margin-top: 2px;
+	height: 22px;
+	white-space:nowrap; 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: black;
+	display: block;
+}
+.bussiness-content .gdsw a:HOVER{
+	font-size: 18px;
+	color: black;
+}
+
+
+
+.bussiness-newsAndCounts{
+	width: 100%;
+	height: 30px;
+}
+.news{
+	width: 904px;
+	height: 30px;
+	float:left; 
+	display:inline;
+	border: 1px solid #44b9ec;
+	text-align: left;
+	line-height: 22px;
+	
+}
+.counts{
+	width: 170px;
+	height: 30px;
+	float:right; 
+	display:inline;
+	border: 1px solid #44b9ec;
+}
+
+
+
+.counts-img{
+	width: 30px;
+	height: 30px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_data.png") no-repeat center;
+	float:right; 
+	display:inline;
+	cursor: pointer;
+}
+.counts-title{
+	margin: 5px 5px 5px 5px;
+	line-height: 20px;
+	float:left; 
+	display:inline;
+	height: 20px;
+	font-size: 14px;
+}
+.counts-data{
+	margin: 5px 5px 5px 5px;
+	float:left; 
+	line-height: 20px;
+	display:inline;
+	height: 20px;
+	color: #51af45;
+	font-size: 14px;
+}
+
+.foot{
+	width: 100%;
+	height: 200px;
+	background-color: #22272e;
+	display: block;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color:#77787a;
+}
+
+.copyright{
+	width: 60%;
+	height: 100px;
+	padding-top: 50px;
+	text-align: right;
+	float: left;
+	position: relative;
+	
+}
+.copyright-content{
+	width: 480px;
+	height: 100px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/logo_foot.png") no-repeat 20px;
+	position: absolute;
+	right: 0px;
+	border-right: 1px solid #77787a;
+	padding-left: 260px;
+	text-align: center;
+}
+
+.quickchannel{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+.quickchannel-content{
+	width: 100%;
+	height: 150px;
+	margin-top: 25px;
+	
+}
+
+.quickchannel-content .more{
+	text-decoration: none;
+	color:#77787a;
+}
+
+.quickchannel-content .more:hover{
+	text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.quickchannel-table td{
+	height: 48px;
+	padding-top: 10px;
+	display: inline-block;
+	overflow: hidden;
+}
+.quick-title .title{
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+.quickchannel-div{
+	margin-left: 50px;
+}
+.channel-item{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+.channel-item-link{
+	display: block;
+    height: 40px;
+    width: 60px;
+    line-height: 40px;
+    padding: 4px 0 4px 55px;
+    overflow: hidden;
+    color: #77787a;
+    position: relative;
+    word-break: break-all;
+    word-wrap: break-word;
+
+}
+
+.channel-item-link:hover{
+	background: #191e24;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+.channel-item-link .img{
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    overflow: hidden;
+    pointer-events: none;
+    cursor: pointer;
+     /*   border-radius: 100%;  */
+}
+.channel-item-sub-item-title{
+
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+/**********热门事务样式***********/
+.guidemain{ width:1016px; margin-right:auto; margin-top:25px; margin-left:auto; overflow: hidden; }
+
+#collectTable div{ width:115px; height:100px; float:left; margin-right:10px; margin-bottom:20px;}
+#collectTable div dt{ width:100%;text-align:center;}
+#collectTable div dd{ width:100%; display:block; text-align:center; margin-left:0px; height: 20px; height: 40px;overflow: hidden; margin-left: auto; margin-right: auto;}
+#collectTable td{
+	border: 0;
+	width: 125px;
+}
+#collectTable td:HOVER{
+	background-color: white;
+}
+#collectTable{
+	border-spacing: 0;
+}
+
+#collectTable a{
+	text-decoration: none;
+	color:#4f5256;
+	font-size:12px;
+}
+
+
+
+/**********新闻自动更新**************/
+.news-img{
+	width: 30px;
+	height: 30px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_notice.png") no-repeat center;
+	float:left; 
+	display:inline;
+}
+.news-title{
+	margin: 5px 10px 5px 10px;
+	max-width: 750px;
+	line-height: 20px;
+	float:left; 
+	display:inline;
+	height: 20px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.news-more{
+	line-height: 20px;
+	height: 20px;
+	margin: 0px 10px 0px 20px;
+	color: #44b9ec !important;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+
+
+.list,li{list-style:none; margin:0; padding:0;}  
+
+.news-title li{ max-width:750px; height:20px; line-height:20px; overflow:hidden;}  
+
+.news-title li a{ font-size:14px; color:#333; text-decoration:none; display:inline; float: left;}  
+
+.news-title li a:hover{ text-decoration:underline;}  
+
+
+.toolbar{	
+	position: fixed;
+	right: -266px;
+	top:0;
+	width: 266px;
+	height: 100%;
+	z-index: 10;
+	border-left: 5px solid #DCDCDC;
+	display: none;
+}
+
+
+
+.toolbar-Content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.toolbar-cysw{
+	position: absolute;
+	top: 160px;
+	left: -60px;
+	height: 60px;
+	width: 60px;
+	border: 0;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_2_1.png") no-repeat center;
+}
+.toolbar-cysw:HOVER{
+	background-color: white;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_2_2.png") no-repeat center;
+}
+.toolbar-wdsc{
+	position: absolute;
+	top: 220px;
+	left: -60px;
+	height: 60px;
+	width: 60px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_1_1.png") no-repeat center;
+	border: 0;
+}
+.toolbar-wdsc:HOVER {
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_1_2.png") no-repeat center;
+}
+.toolbar-cysw .icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/css/..images/");
+}
+.content-area{
+	width: 100%;
+	height: 100%;
+	background-color:white;
+	filter:alpha(opacity=95); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.95; /*Firefox私有，透明度50%*/
+	opacity:0.95;/*其他，透明度50%*/
+	
+	
+
+	
+}
+.cysw{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	z-index: 3;
+}
+.wdsc{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	z-index: 4;
+}
+.tab-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.tab-head{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-left: 90px;
+	height: 20px;
+}
+.closeBtn{
+	width: 16px;
+	height: 16px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/close_normal.png") no-repeat center;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.closeBtn:HOVER{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/close_highlighted.png") no-repeat center;
+	cursor: pointer;
+}
+
+.tab-item{
+	height: 100%;
+}
+
+.tab-item ul{
+	display: inline-block;
+	float: left;
+	padding: 20px 12px 20px 12px;
+}
+.tab-item li{
+	height: 116px;
+	width: 116px;
+	background-color: #DCDCDC;
+	margin: 2px 2px 2px 2px;
+	float: left;
+	display: inline-block;
+}
+
+.tab-item li dt{
+	width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.tab-item li dd{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    height: 20px;
+}
+.tab-item li a{
+	color: black;
+}
+.tab-item li a:HOVER{
+	color: #44b9ec;
+}
+.tab-content .message{
+	display: none;
+	margin-top: 150px;
+	color: #44b9ec;
+}
+.login-message{
+	text-align: right;
+	color: white;
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+	padding: 4px 0px 4px 0;
+	display: none;
+}
+
+.login-message a,.login-message a:link,.login-message a:active,.login-message a:visited
+{
+	color:#FFFFFF;
+	font-size:13px;
+	font-family:'宋体';
+	font-weight:bold;
+}
+
+.login-message A:hover
+{
+	color:#fd7422;
+	font-size:13px;
+	font-family:'宋体';
+	font-weight:bold;	
+}
+
+
+/* 入口页样式 */
+.home{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.home .background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.home .logo{
+	width: 317px;
+	height: 114px;
+	position: absolute;
+	z-index: 3;
+	margin: 40px 0 0 40px;
+}
+.home-student{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_student_normal.png");
+	width: 132px;
+	height: 164px;
+	margin-right: 70px;
+	float: left;
+}
+.home-student:HOVER{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_student_highlighted.png");
+}
+.home-teacher{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_teacher_normal.png");
+	width: 132px;
+	height: 164px;
+	float: left;
+}
+.home-teacher:HOVER{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_teacher_highlighted.png");
+}
+.home-btn{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -182px;
+	margin-top: -82px;
+	z-index: 3;
+	width: 364px;
+	height: 164px;
+}
+
+
+
+/************List页面样式************/
+.cls-title{
+	width: 1062px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding: 12px 0 0 25px ;
+	border-bottom: 1px solid #f6af4a;
+}
+.swfl_icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_shiwu.png") no-repeat 0 18px;
+}
+.rmsw_icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_remen.png") no-repeat 0 18px;
+}
+.tjsw_icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_tuijian.png") no-repeat 0 18px;
+}
+.znjs_icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_chaxun.png") no-repeat 0 18px;
+}
+#yagk_More{
+	display: none;
+}
+.cls-content{
+	width: 100%;
+	height: 1040px;
+	padding: 16px 0 0 0;
+}
+
+.cls-content-left{
+	height: 100%;
+	width: 810px;
+	float: left;
+	display: inline-block;
+}
+.cls-content-right{
+	height: 100%;
+	width: 272px;
+	float: right;
+	display: inline-block;
+}
+
+.cls-content-left ul{
+	overflow:hidden;
+}
+.cls-content-left li{
+	height: 240px;
+	width: 190px;
+	margin: 0 8px 8px 0;
+	background-color: white;
+	display: inline-block;
+	float: left;
+	border: 1px solid #DCDCDC; 
+}
+
+.cls-content-item-content{
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid #DCDCDC; 
+}
+.cls-content-item-content img{
+	margin-bottom: 10px;
+}
+.cls-content-item-content dl{
+	-webkit-margin-before:10px;
+	-webkit-margin-after:5px;;
+}
+
+.cls-content-item-content dt{
+	width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.cls-content-item-content dd{
+	width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 16px;
+    height: 20px;	
+}
+
+.cls-content-item-collect{
+	width: 100%;
+	height: 30px;
+	background: url("../image/btn_shoucang.png")no-repeat center;
+	cursor: pointer;
+}
+.collected{
+	background: url("../image/btn_shoucang_highlighted.png")no-repeat center !important;
+}
+.cls-content-item-content .cls-text{
+	text-align: left;
+	color: #999999;
+	font-size: 13px;
+	padding: 0 15px 10px 15px;
+}
+.cls-content-item-content .cls-text div{
+	height: 20px;
+	line-height: 20px;
+	cursor: default;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap; 
+}
+.cls-text-title{
+	width: 80px
+}
+.cls-text-content{
+	width: 110px
+}
+
+.cls-content-search{
+	height: 40px;
+	width: 268px;
+	background-color: #44b9ec;
+	line-height: 40px;
+	padding: 2px 2px 2px 2px;
+	position: relative;
+}
+.cls-content-search .search-text{
+	width: 208px;
+	height: 36px;
+	float: left;
+	line-height: 36px;
+	 
+}
+.cls-content-hotBtn{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	line-height: 40px;
+	font-size: 16px;
+	font-family:"微软雅黑";
+	background:url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/mark_remen_1.png")no-repeat center;
+	border: 1px solid #DCDCDC; 
+	cursor: pointer;
+}
+
+.cls-content-recommend{
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background:url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/mark_tuijian_1.png")no-repeat center;
+	line-height: 40px;
+	font-size: 16px;
+	border: 1px solid #DCDCDC; 
+	cursor: pointer;
+}
+.cls-content-recommend img{
+	height: 15px;
+	width: 12px;
+	margin-right: 5px;
+}
+.selected{
+	background-color: #f6af4a !important;
+}
+.selected_hots{
+	background:url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/mark_remen_2.png")no-repeat center;
+}
+.selected_recommend{
+	background:url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/mark_tuijian_2.png")no-repeat center;
+}
+
+
+.cls-search-condition{
+	width: 100%;
+	background-color: white;
+	border-top: 1px solid #DCDCDC; 
+	border-right: 1px solid #DCDCDC; 
+	border-left: 1px solid #DCDCDC; 
+}
+.asRow{
+	overflow: auto;
+	max-height: 366px;
+	cursor:pointer;
+}
+.asXueY{
+	overflow: auto;
+	max-height: 366px;
+	cursor:pointer;
+}
+.cls-search-condition span{
+	color: #44b9ec;
+	display: block;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+	height: 40px;
+	line-height: 40px;
+}
+.cls-search-condition .style1{
+	display: block;
+	background-color: white;
+	overflow: visible;
+	width: 100%;
+	float: left;
+}
+.cls-search-condition .style1 li{
+	float: left;
+    height: 25px;
+    min-width: 60px;
+    max-width: 80px;
+    text-align: left;
+    line-height: 25px;
+    margin: 5px 5px 5px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.cls-search-condition .style2{
+	display: block;
+	background-color: white;
+	overflow: visible;
+	width: 100%;
+}
+.cls-search-condition .style2 li{
+    height: 25px;
+    max-width: 232px;
+    text-align: left;
+    line-height: 25px;
+    margin: 5px 5px 5px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.cls-search-condition .style3{
+	display: block;
+	background-color: white;
+	overflow: visible;
+	width: 100%;
+	float: left;
+}
+.cls-search-condition .style3 li{
+	float: left;
+    height: 25px;
+    min-width: 60px;
+    text-align: left;
+    line-height: 25px;
+    margin: 5px 15px 5px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.border-bottom{
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.pages {
+    font-family: 宋体;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    height: 22px;
+}
+.pages a {
+    margin: 0 4px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius:5px;
+    text-align: center;
+    color: #787878;
+    padding: 0 10px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.pages span {
+    margin: 0 4px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    background: #44b9ec;
+    border: 1px solid #44b9ec;
+     border-radius:5px;
+    color: #787878;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+/*******************详情页样式*******************/
+.guide_page_left{
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+}
+.guide_title{
+	font-size: 24px;
+	font-weight: bold;
+	height: 60px;
+	line-height:60px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.guide_item_title{
+	font-size: 18px;
+	font-weight: bold; 
+	color: #44b9ec;
+	text-align: left;
+	padding: 24px 0 14px 0;
+}
+.guide_page_left .guide_item_content{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 14px;
+	font-size: 14px;
+}
+.toolBar{
+	padding-left: 20px;
+	height: 44px;
+}
+.btn_shoucang{
+	height: 44px;
+	width: 96px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_shoucang_1.png") no-repeat center;
+	float: left;
+	cursor: pointer;
+}
+.hasCollected{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_shoucang_3.png") no-repeat center !important;
+}
+
+
+.btn_banli{
+	height: 44px;
+	width: 144px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_banli_1.png") no-repeat center;
+	float: right;
+	cursor: pointer;
+}
+.btn_banli:HOVER{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_banli_2.png") no-repeat center;
+}
+.btn_banli_canNotDoIt{
+	height: 44px;
+	width: 144px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/btn_banli_3.png") no-repeat center;
+	float: right;
+}
+.guide_item_right_title{
+	height:40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold; 
+	color: #44b9ec;
+	text-align: left;
+	margin-left: 20px;
+}
+.toolBar_list{
+	margin: 15px 0 0 20px;
+	text-align: left;
+	font-size: 14px;
+	background-color: white;
+	padding-bottom: 10px;
+}
+.guide_item_content_right{
+	padding: 0 10px 3px 20px;
+	white-space: pre-wrap;
+}
+
+.guide_attachment{
+	display: none;
+}
+
+
+
+/*****************公告样式********************/
+.notice_title{
+	font-size: 24px;
+	font-weight: bold;
+	height: 60px;
+	line-height:60px;
+	
+}
+.notice_page_left{
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+}
+.notice_message{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid #E5E5E5;
+	text-align: center;
+}
+.notice_message_item{
+	display:inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 20px 0 20px;
+}
+.notice_message_item span{
+	font-size: 14px;
+}
+.notice_item_title{
+	font-size: 14px;
+    font-weight: bold;
+    color: #44b9ec;
+    text-align: left;
+}
+.notice_content{
+	padding: 20px 4px 20px 4px;
+	text-align: left;
+}
+.notice_right_list{
+	height: 366px;
+	width: 265px;
+	background-color: white;
+	margin-left: 7px;
+}
+.notice_right_title{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #E5E5E5;
+	color: #44b9ec;
+	text-align: left;
+	padding: 0 10px 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.notice_right_list ul{
+	text-align: left;
+	padding-top: 5px;
+	height: 310px;
+	overflow: auto;
+}
+.notice_right_list li{
+	height: 25px;
+	display: block;
+	margin-bottom: 5px;
+	padding: 2px 10px 2px 10px;
+	cursor: pointer;
+}
+.notice_right_list li:HOVER{
+	background-color: #f6af4a;
+}
+
+.notice_list_item_title{
+	width: 160px;
+    height: 25px;
+    line-height: 25px;
+	font-size: 14px;
+	padding-right: 10px;
+	float: left;
+	overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.notice_list_item_date{
+	width: 70px;
+	font-size: 12px;
+	color: #999999;
+	height: 25px;
+    line-height: 25px;
+    float: left;
+}
+.notice_list_item_id{
+	display: none;
+}
+
+.login-btn{
+	height: 30px;
+	width: 100px;
+	border: 1px solid white; 
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+
+/*****************议案公开********************/
+.yagk-icon{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/icon_bill.png") no-repeat 0 18px;
+}
+.yagk-content{
+	width: 100%;
+    padding: 16px 0 0 0;
+}
+.yagk-content-left{
+	width: 740px;
+	text-align: left;
+	background-color: white;
+	display: inline-block;
+	padding: 0 20px 10px 20px;
+	border: 1px solid #E5E5E5;
+}
+
+.yagk-content-left li{
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.noRecode{
+	border-bottom: 0 !important;
+	font-weight: bold;
+	color: #87CEEB;
+	cursor: default;
+}
+
+.yagk-item-title{
+	width: 580px;
+	display: inline-block;
+}
+.yagk-item-title img{
+	margin-left: 10px;
+	margin-bottom: -3px;
+}
+.yagk-item-date{
+	width:160px;
+	display: inline-block;
+	font-size: 14px;
+	color: #999999;
+}
+
+.proposal-content{
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.proposal-title{
+	height: 60px;
+	line-height: 60px;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #E5E5E5;
+}
+.proposal-title-left{
+	margin: 15px 0 10px 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	color: #44b9ec;
+	font-weight: bold;
+	text-align: left;
+}
+.proposal-text{
+	font-size: 14px;
+	text-align: left;
+}
+.proposal-text-myd{
+	text-align: left;
+	height: 20px;
+	position: relative;
+}
+.proposal-text-myd .text{
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	position: absolute;
+	float: left;
+}
+
+.proposal-text-myd .view{
+	position: absolute;
+	left: 60px;
+}
+.proposal-text-myd p{
+	height: 20px;
+	width: 18px;
+	margin-right: 10px;
+	display: inline-block;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/heart_gray.png") no-repeat center;
+}
+.heart-red{
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/heart_red.png") no-repeat center !important;
+}
+.score{
+	position: absolute;
+	left: 380px;
+	top: -5px;
+	font-size: 16px;
+}
+.score span{
+	color: red;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.proposal-export-word{
+	border-top: 1px solid #E5E5E5;
+	margin-top: 20px;
+	height: 70px;
+}
+.proposal-export-word-btn{
+	height: 44px;
+	width: 164px;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/exportWord_btn.png") no-repeat center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+/********************数据统计*********************/
+.masking{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 20;
+	background-color: #555555;
+	right: 0;
+	top: 0;
+	filter:alpha(opacity=40); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.4; /*Firefox私有，透明度50%*/
+	opacity:0.4;/*其他，透明度50%*/
+	display: none;
+}
+.counts-page{
+	position: fixed;
+	height: 300px;
+	width: 460px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -250px;
+	background-color: white;
+	z-index: 21;
+	display: none;
+}
+.fancybox-lock-test {
+    overflow-y: hidden !important;
+}
+.counts-page-title{
+	height: 45px;
+	background-color: #54c146;
+}
+.counts-page-title img{
+	margin-top: 7px;
+}
+.counts-page-title .counts-SJTJ{
+	position: absolute;
+	font-size: 18px;
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	top: 7px;
+	left: 35px;
+}
+.close-btn{
+	height: 45px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url("http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/images/close_normal_white.png") no-repeat center;
+	cursor: pointer;
+}
+.counts-page ul{
+	padding: 0 40px 0 40px;
+	float: left;
+}
+.counts-page li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 190px;
+	list-style: inside;
+	font-size: 16px;
+	border-bottom: 1px solid #E5E5E5;
+	color: #54c146;
+	font-family:  arial;
+}
+.counts-page .data-title{
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+
+#count{
+	background-color: red;
+	height: 10px;
+	width: 10px;
+	border-radius: 7px;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: 15px;
+	display: none;
+}
+.APPICON{
+	position: absolute;
+	top: 5px;
+	right: 20px;
+	z-index: 10;
+}

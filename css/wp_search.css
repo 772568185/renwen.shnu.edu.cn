@@ -1,0 +1,11 @@
+
+.wp_search .search_logo {
+	width: 242px;
+	height: 59px;
+	float: left;
+	padding-top: 18px;
+}
+.wp_search .search_logo img {
+	width: 242px !important;
+	height: 59px !important;
+}

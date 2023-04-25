@@ -1,0 +1,595 @@
+
+/* CSS Document */
+
+
+/*套用边框样式*/
+.side {
+	border-bottom: #BECAE4 1px solid; 
+	border-left: #BECAE4 1px solid; 
+	border-top: #BECAE4 1px solid; 
+	border-right: #BECAE4 1px solid; 
+}
+
+/*页面应用字体样式*/
+body {
+	color:#666666;
+	margin:0 0 0 0;
+}
+
+top{
+	background:url(http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/css/image/bg.jpg) top left repeat-x;}
+A
+{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height:18px;
+}
+
+A:active {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height:18px;
+}
+
+/*页面链接字体样式*/
+A:link{
+	color:#666666;
+	text-decoration: none;
+}
+
+/*页面链接访字体问过样式*/
+A:visited
+{color:#666666;
+text-decoration: none;
+}
+
+/*页面链接鼠标移动上去字体样式*/
+A:hover{
+color:#fd7422;
+text-decoration: none;
+}
+
+.syscount
+{
+	font-family:"宋体";
+	font-size:10px;
+	font-weight:normal;
+	color:#FF0000;
+}
+
+.syscounttitle
+{
+	font-family:"宋体";
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+}
+
+
+#syshelp
+{
+	margin-top:40px;
+	
+	
+}
+
+#syshelp A,#syshelp A:active,#syshelp A:hover,#syshelp A:visited
+{
+	font-family:"宋体";
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+}
+/*热门事务链接样式*/
+.rmswactive{
+	background-color:#FFFFFF;
+	float: left;
+	width: 130px;
+	padding-bottom:20px;
+	list-style-type: none;
+	text-align:center
+	vertical-align:middle;
+}
+
+.rmswnormal{
+	/*background-color:#ede7f0;*/
+	float: left;
+	width: 130px;
+	padding-bottom:20px;
+	list-style-type: none;
+	text-align:center
+	vertical-align:middle;
+}
+
+#rmsw ul
+{
+	border:0;
+	margin:0;
+	padding:0;
+	width:780px;
+}
+
+#rmsw img
+{margin:20px 32px 0px 32px;
+height:65px;} 
+
+/*
+.rmsw li{
+float: left;
+width: 150px;
+list-style-type: none;
+text-align:center
+vertical-align:middle;
+}
+
+.rmsw{
+clear: both;
+overflow: hidden;
+vertical-align:middle;
+}
+*/
+
+#rmsw A,#rmsw A:hover,#rmsw A:visited,#rmsw A:active
+{
+	font-size:13px;
+	font-weight:bold;
+	border:0;
+}
+
+
+/*顶部链接样式*/
+
+#top_link ul{
+border:0;
+margin:0;
+padding:0;
+}
+
+#top_link li{
+margin-bottom:5px;
+}
+
+#top_link .linocheck{
+float: left;
+width: 85px;
+list-style-type: none;
+text-align:center;
+vertical-align:bottom;
+padding-right:5px;
+/*background:url(image/topbg.png);*/
+}
+
+#top_link .linochecklogin{
+float: left;
+minwidth: 85px;
+list-style-type: none;
+text-align:center;
+vertical-align:bottom;
+padding-right:5px;
+padding-top:16px;
+/*background:url(image/topbg.png);*/
+}
+
+#top_link .lirightnocheck{
+float: left;
+width: 85px;
+list-style-type: none;
+text-align:center;
+vertical-align:bottom;
+padding-right:5px;
+}
+
+#top_link .lichecked{
+float: left;
+width: 85px;
+list-style-type: none;
+text-align:center;
+vertical-align:bottom;
+padding-right:5px;
+background:url(http://service.shnu.edu.cn/default/businessplatfrom/business/guideconf/css/image/licheckedbg.png);
+}
+
+#top_link img
+{margin-top:20px;
+}
+
+/*推荐事务样式*/
+#tjsw ul
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#tjsw img 
+{
+	margin-top:0px;
+	margin-bottom:5px;
+	width:148px;
+}
+
+#tjsw .imgnormal
+{
+	padding-right:10px;
+	float: left;
+	width: 148px;
+	list-style-type: none;
+	text-align:center;
+	vertical-align:bottom;
+}
+
+#tjsw .imglast
+{
+	padding-right:0px;
+	float: left;
+	width: 148px;
+	list-style-type: none;
+	text-align:center;
+	vertical-align:bottom;
+}
+
+
+
+/*事务列表样式*/
+#swlb ul
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#swlb li
+{
+	float: left;
+	width: 180px;
+	list-style-type: none;
+	text-align:center;
+	vertical-align:bottom;
+	border-bottom: #c5c5c5 1px solid; 
+	border-left: #c5c5c5 1px solid; 
+	border-top: #c5c5c5 1px solid; 
+	border-right: #c5c5c5 1px solid; 
+	margin-left:10px;
+	margin-top:10px;
+	background-color:#FFFFFF;	
+}
+
+#swlb .swjs
+{
+	font-family:"宋体";
+	font-size:14px;
+	text-align:left;
+	margin-left:10px;
+	margin-right:10px;
+	height:25px;
+	width:160px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+#swlb .swjstitle
+{
+	font-family:"黑体";
+	font-size:20px;
+	text-align:center;
+	height:30px;
+	font-weight:bold;
+}
+
+#swlb .swjstitle A,#swlb .swjstitle A:hover,#swlb .swjstitle A:visited,#swlb .swjstitle A:active
+{
+	font-family:"黑体";
+	font-size:18px;
+	text-align:center;
+	padding-left:5px;
+	height:30px;
+	font-weight:bold;
+}
+
+#swlb .swjspic
+{
+	height:80px;
+	text-align:center;
+	margin-top:10px;
+}
+
+.swflsearch
+{
+	border-bottom: #44b9ec 3px solid; 
+	border-left: #44b9ec 3px solid; 
+	border-top: #44b9ec 3px solid; 
+	border-right: #44b9ec 3px solid;
+	height:32px;
+	margin-top:10px;
+}
+
+#fwlbzzjg
+{
+	border-bottom: #c5c5c5 1px solid; 
+	border-left: #c5c5c5 1px solid; 
+	border-top: #c5c5c5 1px solid; 
+	border-right: #c5c5c5 1px solid;
+	margin-top:10px;
+	background-color:#FFFFFF;
+}
+
+#fwlbzzjg A,#fwlbzzjg A:hover,#fwlbzzjg A:active,#fwlbzzjg A:visited
+{
+	font-family:'宋体';
+	font-weight:normal;
+	font-size:13px;
+}
+
+
+.fwlbtitle
+{
+	margin-top:10px;
+	margin-left:10px;
+	font-family:'黑体';
+	font-weight:bold;
+	font-size:20px;
+	color:#0099FF;
+}
+
+.fwlb
+{
+	width:68px;
+	font-family:"宋体";
+	font-size:13px;
+	font-weight:normal;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top:10px;
+	float:left;	
+}
+
+#fwlbfl
+{
+	border-bottom: #c5c5c5 1px solid; 
+	padding-bottom:10px;
+	margin-top:10px;
+}
+
+#fwlb ul
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#fwlb li
+{
+	margin-left:10px;
+	font-size:13px;
+	margin-top:5px;
+	margin-bottom:10px;
+	list-style-type:none;
+}
+
+
+#zzjg ul
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#zzjg li
+{
+	margin-left:10px;
+	font-size:13px;
+	margin-top:5px;
+	margin-bottom:10px;
+	list-style-type:none;
+}
+
+#swlb .btn_sc
+{
+	font-family:"宋体";
+	font-size:14px;
+	text-align:center;
+	height:30px;
+	width:180px;
+	border-top: #c5c5c5 1px solid; 
+	padding-top:0px;
+}
+
+.swnormal
+{
+	border-bottom: #c5c5c5 1px solid; 
+	border-left: #c5c5c5 1px solid; 
+	border-top: #c5c5c5 1px solid; 
+	border-right: #c5c5c5 1px solid;
+	text-align:center;
+	font-weight:bold;
+	background-color:#FFFFFF;
+	/*background:url(image/mark_tuijian_1.png) top left;*/
+	height:30px;
+	font-family:'黑体';
+	font-size:18px;
+	color:#666666;
+	margin-top:10px;
+	padding-top:10px;	
+}
+
+.swactive
+{
+	border-bottom: #c5c5c5 1px solid; 
+	border-left: #c5c5c5 1px solid; 
+	border-top: #c5c5c5 1px solid; 
+	border-right: #c5c5c5 1px solid;
+	text-align:center;
+	font-weight:bold;
+	background-color:#666666;
+	/*background:url(image/mark_tuijian_2.png) top left;*/
+	height:30px;
+	color:#FFFFFF;
+	font-family:'黑体';
+	font-size:18px;
+	margin-top:10px;
+	padding-top:10px;	
+}
+
+.swnormal A,.swnormal A:active,.swnormal A:visited,.swnormal A:hover
+{
+	font-size:18px;
+}
+
+.swactive A,.swactive A:active,.swactive A:visited,.swactive A:hover
+{
+	font-size:18px;
+	color:#FFFFFF;
+}
+
+#zzjgnr
+{
+	overflow-Y:auto;
+	height:363px;
+}
+
+#swmc
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:24px;
+	width:100%;
+	text-align:center;
+	margin-top:15px;
+}
+
+.swtitle
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:20px;	
+	color:#0099FF;
+}
+
+.swnr
+{
+	font-family:"宋体";
+	font-weight:normal;
+	font-size:14px;	
+	color:#000000;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+#swsm
+{
+	margin-top:10px;
+	padding:10px 10px 10px ;
+	background-color:#FFFFFF;
+	min-height:480px;
+}
+
+#swjj
+{
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+
+#swjj .swtitle
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:20px;	
+	color:#0099FF;
+}
+
+#swjj .swnr
+{
+	font-family:"宋体";
+	font-weight:normal;
+	font-size:14px;	
+	color:#000000;
+	margin-bottom:30px;
+}
+
+#zxbl_sc
+{
+	height:40px;	
+}
+
+#zxbl
+{
+	height:40px;
+	background-color:blue;
+	text-align:center;
+	width:120px;
+	float:left;
+}
+
+#shortcut2
+{
+	height:40px;
+	background-color:#666666;
+	text-align:center;
+	width:120px;	
+	float:left;
+}
+
+#zxbl A,#zxbl A:hover,#zxbl A:active,#zxbl A:visited
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:18px;	
+	color:#FFFFFF;
+}
+
+#shortcut2 A,#zxbl A:hover,#zxbl A:active,#zxbl A:visited
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:18px;	
+	color:#FFFFFF;
+}
+
+#sc
+{
+	height:40px;
+	background-color:#fdee96;
+	text-align:center;
+	width:80px;
+	border-bottom: #d58400 1px solid; 
+	border-left: #d58400 1px solid; 
+	border-top: #d58400 1px solid; 
+	border-right: #d58400 1px solid;
+	float:right;
+}
+
+#ysc
+{
+	height:40px;
+	background-color:#fdee96;
+	text-align:center;
+	width:80px;
+	border-bottom: #d58400 1px solid; 
+	border-left: #d58400 1px solid; 
+	border-top: #d58400 1px solid; 
+	border-right: #d58400 1px solid;
+	float:right;
+}
+
+#sc A,#sc A:hover,#sc A:active,#sc A:visited
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:18px;	
+	color:#d58400;
+}
+
+#ysc A,#sc A:hover,#sc A:active,#sc A:visited
+{
+	font-family:"黑体";
+	font-weight:bold;
+	font-size:18px;	
+	color:#d58400;
+}
+
+
+
+
+

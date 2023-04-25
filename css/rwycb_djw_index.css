@@ -1,0 +1,287 @@
+/* CSS Document */
+/*?????????*/
+.side {
+	border-bottom: #BECAE4 1px solid; 
+	border-left: #BECAE4 1px solid; 
+	border-top: #BECAE4 1px solid; 
+	border-right: #BECAE4 1px solid; 
+}
+
+/*?????????????*/
+body {
+	color:#5a5a5a;
+	background-position: center;
+}
+
+body, hr, div, td, span, .Normal, .Message, TFOOT, label, .NormalRed, .NormalBold, A, A:active {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+a{text-decoration:none;}
+
+/*?????????????*/
+.label{
+        color:#ffffff;
+        font-size:12px;
+        line-height:30px;
+}
+/*????????????????*/
+.LoginTabs,A.LoginTabs:link,A.LoginTabs:active,A.LoginTabs:hover,A.LoginTabs:visited{
+	font-weight: normal;
+	font-size: 12px;
+	color: #5a5a5a;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+
+/*????????*/
+TR.MainMenu_MenuBar TD{
+	color: #E80202;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 10px;
+	height:34px;
+	background:#FFF6F4;
+}
+
+/*????????????*/
+.MainMenu_MenuItem {
+	cursor: hand;
+	color: #3b3b3b;
+	font-weight:normal;
+	font-size: 12px;
+	border-left: #808080 0px solid;
+	border-bottom: #808080 0px solid;
+	border-top: #808080 0px solid;
+	border-right: #808080 0px solid;
+	padding:2 10px;
+	height:34px;	
+}
+
+/*?????????????*/
+TR.MainMenu_MenuItemSel TD{
+	color:#E80202;
+	font-size: 12px; /*must be pixel to match repeat*/
+	font-weight:bold;
+	padding:0 10px;
+	height:34px;	
+	background:#FFCCCC;
+}
+
+/*?????????????????*/
+.MainMenu_MenuItemSel{
+	color: #000000;
+	font-size: 12px; /*must be pixel to match repeat*/
+	font-weight:normal;
+	padding:2px 10px;
+	height:24px;	
+	background:transparent;
+}
+
+/*?????????????????*/
+.MainMenu_SubMenu {
+	border-left: #E4CEBD 0px solid;
+	border-bottom: #E4CEBD 0px solid;
+	border-top: #E4CEBD 0px solid;
+	border-right: #E4CEBD 0px solid;
+	background-color: #d7d7d7;
+	z-index: 1000;
+}
+
+/*??????е???????????*/
+.MainMenu_MenuIcon{ display:none; }
+.MainMenu_MenuArrow{ display:none; }
+.MainMenu_RootMenuArrow{ display:none; }
+.MainMenu_MenuBreak{ display:none; }
+
+/* Module Action Menus */
+.ModuleTitle_SubMenu
+{
+	border:1px solid #C0D6E5;
+}
+
+.ModuleTitle_SubMenu td{
+	background-color:#F8FAFF;
+	white-space: nowrap;
+} 
+
+.ModuleTitle_MenuIcon{
+	background-color:#F8FAFF; 
+	border:none;
+	padding: 0px 2px;
+}
+
+.ModuleTitle_MenuItemSel td, .ModuleTitle_MenuItemSel .ModuleTitle_MenuIcon{
+	background: #CE0D0D url(http://cms.shnu.edu.cn/Portals/161/Skins/images/submenu_hover.gif) repeat-x top left;
+	color: #fff;
+}
+
+.ModuleTitle_MenuBreak td, .ModuleTitle_MenuBreak .ModuleTitle_MenuIcon{
+	height: 2px;
+	background-color: #D5E0FF;
+}
+
+body{
+	margin:0 auto;
+	padding:0;
+}
+
+/*??????????????*/
+A:link{
+	color:#000000;
+}
+
+/*??????????????????*/
+A:visited{color:#000000;}
+
+/*????????????????????????*/
+A:hover{
+	color:#d93b03; /*qz: ???????*/
+}
+
+#wrapper {
+	width:960px;
+	margin:10px auto; /*上下留出10px的空间好看*/
+}
+
+.loginplane {
+	text-align:right;
+	margin:20px 0 0 0;
+	height:30px;
+	background:none;
+	padding:0 10px 0 0;
+	color:#FFFFF5;
+}
+a.SkinObject:link, a.SkinObject:visited{
+	color:#EB4828 !important; 	
+}
+
+.banner{
+	width:960px;
+	height:187px;
+	background:url(../image/banner_rw.jpg) top center no-repeat;
+}
+
+.menu{
+	width:960px;
+	height:40px;
+	background:url(../image/menu1.jpg) top left repeat-x;
+}
+.menu a:link, .menu a:hover, .menu a:visited{
+	font-size:20px;	
+}
+
+.pic{
+	margin:15px 20px; /*qz: ?????????λ??*/
+	width:928px;
+	height:290px;
+}
+
+.content{
+	width:960px;
+}
+
+.bottom{
+	width:960px;
+	height:71px;
+	background:url(../image/bottom1.jpg) top left repeat-x;
+}
+
+/*????????????*/
+.ndzxx{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    border-right: 2px #EB4828 solid;
+    border-top: 2px #EB4828 solid;
+    border-left: 2px #EB4828 solid;
+    border-bottom: 2px #EB4828 solid;
+    background-position: left;
+    background-repeat: repeat-y;
+    margin-bottom: 0px;
+    margin-left: 15px !important;
+}/*qz: margin-left?????10px*/
+
+.ndzxx .dzxxTitle{
+	clear: both;
+	height: 35px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+
+.ndzxx .dzxxTitle ul{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+.ndzxx .dzxxTitle li{
+	float: left;
+	width: 108px;
+	cursor: pointer;
+	list-style-type: none;
+	font-size: 12px;
+	color:#696969;
+	text-align: center;
+	vertical-align:middle;
+	line-height:35px;
+	height:42px;
+	margin: 0;
+}
+
+.ndzxx .dzxxTitle .dzxxactive{
+	background:#EB4828;
+	border-top:2px #eb4828 solid;
+	width:250px;
+	height:40px;
+	color:#ffffff;
+	font-family:??????;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.ndzxx .dzxxTitle .dzxxnormal{
+	background:#ffffff;
+	border-left:2px #eb4828 solid;
+	border-top:2px #eb4828 solid;
+	border-right:2px #eb4828 solid;
+	width:250px;
+	height:40px;
+	color:#EB5534;
+	font-family:??????;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.ndzxx.dzxxTitle:hover .dzxxnormail:hover{
+	background:#FFF6F4;
+	color:#EB5534;
+	width:250px;
+	height:40px;
+	font-family:??????;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.none{display:none;}
+
+/*
+.banner{
+    width: 960px;
+    height: 187px;
+    background: url(rwycb_djw_index_res/banner.jpg) top center no-repeat;
+}
+.menu{
+    width: 960px;
+    height: 40px;
+    background: url(../image/menu1.jpg) left top repeat-x;
+}
+qz: ??????д?????
+*/
+.ndzxx .dzxxContent{
+    min-height: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}

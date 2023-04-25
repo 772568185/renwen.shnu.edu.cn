@@ -1,0 +1,220 @@
+
+/* CSS Document */
+
+<style>
+img
+{
+border:none;
+}
+
+/*页面主题背景样式*/
+body {
+
+	text-align:center;
+	margin:0px;
+	padding:0px;
+
+}
+
+body html {
+	width:100%;
+}
+
+#wrapper {
+	text-align:center;
+	margin:0 auto;
+}
+
+/*套用边框样式*/
+.side {
+	border-bottom: #E1E1E2 1px solid; 
+	border-left: #E1E1E2 1px solid; 
+	border-top: #E1E1E2 1px solid; 
+	border-right: #E1E1E2 1px solid; 
+}
+
+.side2 {
+	border-bottom: #CFD1D2 0px solid; 
+	border-left: #CFD1D2 1px solid; 
+	border-top: #CFD1D2 0px solid; 
+	border-right: #CFD1D2 1px solid; 
+}
+
+/*页面应用字体样式*/
+body,td,tr,div,span,p,hr,.Message,TFOOT,label,.Normal,.NormalRed,.NormalBold,A,A:active{
+	color:#151515;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+line-height:180%;}
+
+/*页面链接字体样式*/
+A:link{color:#151515}
+
+/*页面链接访字体问过样式*/
+A:visited{color:#151515}
+
+/*页面链接鼠标移动上去字体样式*/
+A:hover{color:#151515}
+
+.pane1 a,.pane1 a:hover,.pane1 a:visited{
+    color:#1D79A8 !important;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+/*登录模块字体样式*/
+.label{
+        color:#ffffff;
+        font-size:12px;
+		line-height:22px;
+}
+/*登录页面显示字体样式*/
+.LoginTabs,A.LoginTabs:link,A.LoginTabs:active,A.LoginTabs:hover,A.LoginTabs:visited,.skinobject,A.skinobject:link,A.skinobject:active,A.skinobject:hover,A.skinobject:visited{
+	font-weight: normal;
+	font-size: 12px;
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*菜单的样式*/
+TR.MainMenu_MenuBar TD{
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif,"微软雅黑";
+	font-size:14px;
+	font-weight: bold;
+	padding:0px 0px 0px 0px;
+	height:42px;
+	text-align:center;
+    background:url(../image/bgline2.png) top right no-repeat;
+}
+
+/*下拉菜单的样式*/
+.MainMenu_MenuItem {
+	cursor: hand;
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif,"微软雅黑";
+	font-weight: normal;
+	font-size: 14px;
+	border-left: #808080 0px solid;
+	border-bottom: #808080 0px solid;
+	border-top: #808080 0px solid;
+	border-right: #808080 0px solid;
+	border-radius: 10px;
+	padding:0px 0px;
+	height:30px;
+	background:url(../image/sbg.jpg)  bottom  center no-repeat;	
+}
+
+/*菜单选中项的样式*/
+TR.MainMenu_MenuItemSel TD{
+	color: #ffffff;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif,"微软雅黑";
+	font-size: 14px; /*must be pixel to match repeat*/
+	font-weight: bold;
+	padding:0px 0px 0px 0px;
+	height:42px ;
+    background:#D2423F url(../image/bgline2.png) top right no-repeat;
+}
+
+/*下拉菜单选中项的样式*/
+.MainMenu_MenuItemSel{
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif,"微软雅黑";
+	font-size: 14px; /*must be pixel to match repeat*/
+	font-weight: normal;
+	padding:0px 0px;
+	height:30px;	
+	border-radius: 10px;
+	background:#E04E45 url(../image/sbg.jpg)  bottom  center no-repeat;	
+}
+
+
+/*下拉菜单项的背景样式*/
+.MainMenu_SubMenu {
+	border-left: #C5392A 2px solid;
+	border-bottom: #C5392A 2px solid;
+	border-top: #C5392A 2px solid;
+	border-right: #C5392A 2px solid;
+	background-color: #F28952;
+}
+
+/*菜单项中的链接间隔样式*/
+.MainMenu_MenuIcon{ display:none; }
+.MainMenu_MenuArrow{ display:none; }
+.MainMenu_RootMenuArrow{ display:none; }
+.MainMenu_MenuBreak{ display:none; }
+
+/*皮肤底部内的链接样式*/
+A.bottom:link,A.bottom:active,A.bottom:hover,A.bottom:visited{
+	color: #0C498A;
+	font-size: 12px;
+}
+
+/*皮肤底框内字体的样式*/
+.bottom {
+	color: #0C498A;
+	font-size: 12px;
+	line-height:120%;
+}
+
+.ModuleTitle_SubMenu
+{
+	border:1px solid #C0D6E5;
+}
+
+.ModuleTitle_SubMenu td{
+	background-color:#F8FAFF;
+	white-space: nowrap;
+} 
+
+.ModuleTitle_MenuIcon {
+	background-color:#F8FAFF; 
+	border:none;
+	padding: 0px 2px;
+}
+
+.ModuleTitle_MenuItemSel td, .ModuleTitle_MenuItemSel .ModuleTitle_MenuIcon{
+	background: #CE0D0D url(http://zzb.shnu.edu.cn/Portals/32/Skins/images/submenu_hover.gif) repeat-x top left;
+	color: #fff;
+}
+
+.ModuleTitle_MenuBreak td, .ModuleTitle_MenuBreak .ModuleTitle_MenuIcon
+{
+	height: 2px;
+	background-color: #D5E0FF;
+}
+.bottom1 {	color: #000000;
+	font-size: 12px;
+	line-height:120%;
+}
+a.SkinObject:link, a.SkinObject:visited
+{
+color:#fff!important; 	
+font-weight:bold;
+font-family:微软雅黑;
+}
+.style1 {color: #ffffff}
+.style2 {color: #ffffff}
+.style3 {line-height:120%; font-size: 12px;}
+.STYLE4 {color: #FFFFFF}
+
+/*tab1轮换*/
+* {list-style-type:none; font-size:12px; text-decoration:none; margin:0; padding:0;}
+.tab1 {width:450px; height:400px; overflow:hidden; margin:0 0 0 0px;}
+.tab1_title {width:450px; height:30px; background: url(../image/tab1.png) no-repeat; overflow:hidden;}
+.tab1_title li {display:block; float:left; margin:0 0 0 0; display:inline; text-align:center;}
+.tab1_title li a {display:block; width:102px; height:30px; line-height:28px; color:#fff;}
+.tab1_title li a:hover {color:#f0f0f0; text-decoration:underline;}
+.tab1_title_bg1 {background-position:0 0;}
+.tab1_title_bg2 {background-position:0 -30px;}
+.tab1_title_bg3 {background-position:0 -60px;}
+.tab1_title_bg4 {background-position:0 -90px;}
+.tab1_con {display:block; width:450px; height:365px; background:url(http://zzb.shnu.edu.cn/Portals/32/Skins/ssdz1/con_bg.png) no-repeat 0 0; overflow:hidden;}
+</style>
+
+</style>
+
+
+

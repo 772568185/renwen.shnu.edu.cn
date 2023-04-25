@@ -1,0 +1,605 @@
+
+/* CSS Document */
+* {margin: 0;padding: 0;}
+html {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;overflow-y: scroll; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+:focus { outline:0;}
+img { border:0;}
+a img { vertical-align: middle;}
+body {line-height: 1; background:#fff;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+.clear { width:100%; height:0; line-height:0; font-size:0; overflow:hidden; clear:both; display:block; _display:inline;}
+.none { display:none;}
+.hidden { visibility:hidden;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.clearfix{display: block; *zoom:1;}
+
+.header {  /*qz 导航以上部分 高度定位*/
+    width: 100%;
+    height: 124px;
+}
+.head {    /*qz 头文档的内容，主要显示带logo的banner，尺寸为1005-124*/
+    width: 1005px;
+    height: 124px;
+    margin: 0 auto;
+    background:url(../image/banner.png);
+}
+.top1 {    /*qz 头文档中的顶层菜单 暂不用*/
+    float: right;
+    margin-top:0px;
+    height:45px;     /*因为弃而不用所以需要自定义一个高度*/
+}
+.top1 .wp_nav .nav-item a {
+    font-family: "微软雅黑";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    font-size: 12px;
+    color: #5a5959;
+}
+.top1 .wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    padding: 0px 3px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.top1 .wp_nav .nav-item {
+    display: inline-block;
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+    background:url(../image/top1.png) center right no-repeat;
+}
+.sousuo {   /*qz 搜索框定位*/
+    float: right;
+    clear: right;
+    margin-top: 18px;
+}
+.top2 {    /*qz 头文档中的底层菜单 暂不用*/
+    float: right;
+    clear: right;
+    background: #e3e3e3;
+    margin-top: 10px;
+}
+/*header部分结束*/
+
+.nav {    /*qz 导航部分 高度定位及背景式样*/
+    width: 100%;
+    height: 33px;
+    background:url(../image/menu.png) repeat-x;
+    margin-bottom:5px;    /*导航和大图的距离*/
+}
+.nav1 {   /*qz 导航内容层 */
+    width: 1005px;     /*qz：导航栏的宽度，根据菜单多少进行调整*/
+    height: 33px;
+    margin: 0 auto;
+    z-index: 9999;
+    position: relative;
+}
+.nav1 .wp_nav .nav-item a span.item-name {        /*qz：定位到导航栏的菜单*/
+    display: inline-block;
+    padding: 0px 16px;
+    line-height: 33px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.nav1 .wp_nav .nav-item a {
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+}
+.nav1 .wp_nav .nav-item a:hover{
+	background: #333;     /*qz 下拉菜单的底色，原始#2798ff*/
+} 
+.nav1 .wp_nav .nav-item{
+    background:url(../image/bgline1.png) right no-repeat;      /*qz 实现菜单栏中间的分割线*/
+}
+.nav1 .wp_nav .sub-nav .nav-item .mark {      /*定位到子菜单的条目*/
+    background: #666;        /*qz 下拉菜单的底色，原始#0069e0*/
+}
+.nav1 .wp_nav .sub-nav .nav-item a {
+    font-family: "Microsoft Yahei";
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    text-align: left;
+    border-top: 0px solid #D8E1CC;
+    min-width: 80px;
+}
+.nav1 .wp_nav .sub-nav {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 200;
+    visibility: hidden;
+    border: 0px solid #ccc;
+    border-top: 0px;
+}
+.nav1 .wp_nav .sub-nav .nav-item a.parent:hover{
+	background: #666;      /*qz 下拉菜单选中的颜色，原始#2798ff*/
+	color:#fff;
+}
+.nav1 .wp_nav .sub-nav .nav-item {
+        background: url(http://renwen.shnu.edu.cn/_upload/tpl/02/e9/745/template745/images/bglin.png) right no-repeat;           /*qz 去掉下拉菜单的bgline背景 */
+}
+/*nav部分结束*/
+
+
+.banner {    /*qz 大图部分 高度定位及背景式样*/
+    width: 100%;
+    height: 380px;
+    background: url(../image/ct.png) top center no-repeat #949494;
+    margin-bottom:15px; /*qz banner和main之间的距离*/
+}
+.banner1 {  /*qz 大图内容层*/
+    width: 1005px;
+    height: 390px;
+    margin: 0 auto;
+}
+.banner1 p {
+    color: #5a5959;
+    font-family: 微软雅黑, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 200%;
+    text-align: center;
+    padding-top: 5px;
+}
+.logo_20{  /*qz 不起作用，写到main里了*/
+	margin-left:1010px;
+	width:100px;
+}
+/*banner部分结束*/
+
+.main { /*qz 大图以下部分 宽度定位*/
+    width: 1005px;
+    /*min-height: 705px; 让整个内容的高度自适应，以减少友情logo栏和底栏的间距*/
+    margin: 0 auto;
+}
+.main_top {
+    width: 1005px;
+    height: 305px;
+    /* margin-top: 30px; */
+}
+.main_top_left {  /*qz 新闻动态板块*/
+    width: 689px;
+    height: 305px;
+    border: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    float:left;
+    padding-right:5px;
+}
+.main_top_right {  /*qz 学院通告板块*/
+    width: 289px;
+    height: 307px;
+    float: right;
+    margin-right:1px;
+    background: #e5decf;
+    position: relative;
+    padding-right:5px;
+}
+.main_top_left .tt {
+    width: 100%;
+    height: 30px;
+    background:url(../image/xwdt.png) no-repeat; /*新闻动态的logo图*/
+}
+
+.main_middle {
+    width: 1005px;
+    height: 305px;
+    margin-top: 17px;
+    margin-bottom: 15px; /*qz 默认20 控middle和bottom的间距*/
+}
+.main_middle_left {  /*qz 学术热点板块*/
+    width: 334px;
+    height: 305px;
+    border: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    float:left;
+    padding-right:5px;
+}
+.main_middle_middle {  /*qz 学术信息板块*/
+    width: 334px;
+    height: 305px;
+    border: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    float: left;
+    margin-left: 14px;
+    padding-right:5px;
+}
+.main_middle_right {  /*qz 扫描关注板块*/
+    width: 292px;
+    height: 305px;
+    border: 1px solid #e8e8e8;
+    float: right;
+    margin-right:1px;
+    background: #f6f6f6;
+}
+.main_bottom {  /*qz 研究中心板块*/
+    width: 1030px;
+    height: 100px;
+    padding: 0px;  /*qz 默认 10px 0*/
+	margin-bottom:0px;
+	overflow: visible; /*qz 默认hidden*/
+}
+/*main部分结束*/
+
+.footer {   /*qz 研究中心以下的版权部分*/
+    width: 100%;
+    height: 86px;
+	background:url(../image/bottom.png) repeat-x;
+}
+.foot {
+    width: 1005px;
+    height: 52px;
+    margin: 0 auto;
+    padding: 17px 0px;
+}
+.foot p {
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: "微软雅黑";
+    line-height: 200%;
+}
+.foot a{
+	color:#ffffff;
+	text-decoration:none;
+}
+.foot a:hover{
+	color:skyblue;
+}
+/*footer部分结束*/
+
+
+.more_btn {  /*qz 控制每个板块"更多"链接的位置*/
+    float: right;
+    margin-right: 2px;
+    margin-top: 7px;
+    width: 40px;
+    height: 11px;
+}
+.more_btn a {
+    width: 40px;
+    height: 11px;
+    display: block;
+}
+.more_text{  /*qz "更多"链接文字样式*/
+	display:none;}
+.cont-1-l-1 .wp_article_list .list_item {    /*qz 首页列表的list样式*/
+    width: 100%;
+    height: 37px;
+    line-height: 38px;
+    border-bottom: 1px dashed #ccc;
+    vertical-align: top;
+    margin-top
+}
+.cont-1-l-1 .wp_article_list .list_item a {    /*qz 首页列表文字样式*/
+    color: #333;    /*原始#5a5959*/
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+.cont-1-l-1 .wp_article_list .list_item a:hover {    /*qz 首页列表文字的hover*/
+    color:blue;
+}
+.wp_article_list .list_item .Article_Index{display:none;}
+.cont-1-l-1 .wp_article_list .list_item .Article_PublishDate {    /*qz 首页文章列表的日期样式*/
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;    /*原始颜色#440088，#0043AC*/
+    font-family: "微软雅黑";
+    margin-right: 1px;
+    line-height: 34px;
+    margin-left: 0px;
+}
+.main_top_right .tt {
+    width: 294px;
+    height: 30px;
+    background:url(../image/xytg.png) no-repeat;
+}
+/*.main_top_right .more_text {  学院通告更多链接的显示与隐藏
+    display: block;
+}
+.main_top_right .more_btn {     学院通告更多链接的位置等属性
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	bottom: 281px;
+	right: -9px;
+	margin-right: 0px;
+	margin-top: 0px;
+}*/
+.main_top_right .more_btn a {
+    width: 50px;
+    height: 19px;
+    display: block;
+    color: #5a5959;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    text-decoration:none;
+    font-weight:bold;
+}
+.main_top_right .more_btn a:hover {text-decoration:underline;}
+.main_middle_left .tt {
+    width: 100%;
+    height: 30px;
+	background:url(../image/xsrd.png) no-repeat;
+}
+.main_middle_middle .tt {
+    width: 100%;
+    height: 30px;
+	background:url(../image/xsxx.png) no-repeat;
+}
+.main_middle_right .tt{
+    height: 30px;
+}
+.smgz {  /*qz 扫描关注的内容面板*/
+    height: auto;
+    margin-left:4px;
+}
+.yjzx {   /*qz 研究中心的内容*/
+    float: left;
+    margin: 10px 12px 0 0;
+}
+.list_main{
+    background:url(../image/nr.png) center repeat-y #d1d1d1;
+    margin-top:6px;
+}
+.list_main1 {
+    width: 1005px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.list_left {    /*列表页的左栏*/
+    width: 180px;
+    min-height: 800px;
+    float: left;
+}
+.list_right {    /*列表页的右栏*/
+    width: 800px;
+    min-height: 800px;
+    float: right;
+    margin-right: 13px;
+}
+.wzlm {  /*qz 列表页左边菜单顶部显示栏目的地方*/
+    text-align: center;
+    height: 50px;
+    background-color: #0654AD;
+    margin-bottom:10px;
+}
+.wzlm span.Column_Anchor {
+    color: #fff;
+    font-size: 15pt;
+    font-family: "微软雅黑";
+    line-height: 55px;
+}
+.wp_listcolumn {
+    display: block;
+    width: 100%;
+    border-top: 0px solid #ddd;
+    border-bottom: 0px solid #fff;
+}
+.wp_listcolumn .wp_column a {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    word-wrap: break-word;
+    background: none;
+    border-bottom: 1px solid #fff;
+    border-top: 0px solid #fff;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+.lmlb .wp_listcolumn .wp_column {
+    display: block;
+    width: auto;
+    vertical-align: bottom;
+    margin: 0 auto;
+}
+.lmlb .wp_listcolumn {  /*qz 列表页左边的菜单设置*/
+    padding-top:5px;
+    padding-bottom:0px;
+    display: block;
+    width: 100%;
+    height: expression(wp_content_w15_0.style.height + "px");
+    border-top: 0px solid #ddd;
+    border-bottom: 0px solid #fff;
+    background: #c9caca;
+
+}
+.lmlb .wp_listcolumn .wp_column a.selected {
+    color: #fff;
+    background: none;
+}
+.lmlb .wp_listcolumn .wp_column a:hover{
+	background:#b0b0b0;
+	color:#fff;
+}
+.lmtp img {
+    width: 800px;
+    height: 271px;
+}
+.dqwz {    /*qz 列表页的位置栏样式*/
+    border-bottom: 1px solid #0654ad;
+    height: 40px;
+    line-height: 40px;
+}
+.dqwz span {
+    color: #5a5959;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.dqwz a {
+    color: #0654ad;
+    text-decoration: none;
+}
+.dqwz a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.list_news .wp_article_list{    /*qz 二级页列表的样式*/
+    margin:10px auto 0;
+}
+.list_news .wp_article_list .list_item {
+    width: 800px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 0px dashed #ccc;
+    vertical-align: top;
+}
+.list_news .wp_article_list .list_item a{    /*qz 二级页列表链接样式*/
+    color: #333;    /*qz 原始#5a5959*/
+    font-size: 14px;
+    font-family:"微软雅黑";
+    text-decoration:none;
+}
+.list_news .wp_article_list .list_item a:hover{    /*qz 二级页列表链接hover*/
+    color:blue;
+}
+.wp_article_list .list_item .Article_PublishDate {    /*qz 二级页列表日期样式*/
+    font-weight: bold;
+    color: #999;    /*qz 原始#440088*/
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin-right:5px;
+}
+.info_nr img {    /*qz 文章页图片通用样式*/
+    max-width: 800px; 
+    height: auto !important;
+}
+.info {
+    width: 1005px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+/* qz 这条和下面的重复定义了
+.info_head span.Article_Title {
+    font-family: "微软雅黑";
+    font-weight: normal;
+    color: #333333;
+    font-size: 20px;
+}
+*/
+.info_head {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    width: auto;
+}
+.info_head span.Article_Title {    /*qz 这是控制文章页的标题样式*/
+    font-family: "微软雅黑";
+    font-weight: bold;  /*qz 默认是normal */
+    color: #333333;
+    font-size: 24px;    /*qz 默认20*/
+    line-height: 80px;    /*qz 默认60*/
+    display: inline-block;
+    border-bottom: 0px solid #b0b0b0;   /*qz 原始1px*/
+}
+span.info_xinxi {    /*qz 这是控制文章页标题的具体样式*/
+    color: #5a5959;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 55px;
+    height: 55px;
+    display: inline-block;
+    margin: 0 auto;
+    border-bottom: 0px solid #b0b0b0;    /*qz 信息栏的下划线，建议隐藏*/
+}
+.xinxi {text-align: center;}  /*qz 这是控制文章页标题下的信息父行的样式*/
+span.Article_PublishDate, span.Article_Author{margin-right:10px;}    /*qz 新增用来加大文章页顶部日期和作者之后的间隔*/
+.info_nr {    /*qz 文章页的内容区域*/
+    width: 800px;
+    margin: 30px auto;
+    line-height: 200%;
+}
+input#keyword {    /*qz 搜索栏关键字框的样式*/
+    width: 170px !important;
+    height: 22px;
+    border: #adacaa 1px solid;
+    line-height: 22px;
+}
+.wp_search .search {  /*qz 搜索栏搜索按钮的样式*/
+    background:url(../image/js.jpg) no-repeat;
+    width: 42px;
+    height: 24px;
+    border: 0px;
+    cursor: pointer;
+}
+.top2 .wp_nav .nav-item a span.item-name {
+    display: inline-block;
+    padding: 0px 10px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.top2 .wp_nav .nav-item a {
+    font-family: "微软雅黑";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    font-size: 12px;
+    color: #039;
+}
+.top1 li.nav-item.i8 {background: none !important;}
+.wp_nav .nav-item a{text-decoration:none;
+}
+.wp_listcolumn .wp_column a{text-decoration:none;}
+.wp_paging li {margin-top:10px;margin-bottom:10px;}
+.wp_paging li a{text-decoration:none;}
+.wp_listcolumn .wp_column a .column-name{padding: 5px 5px 5px 5px;}
+
+/*qz 新增 用于调节各板块logo和文字的起始位置*/
+.tt{margin:4px 0 0 4px;}
+.con{margin-left:4px;}
+
+/*qz 覆盖外部样式*/
+.Article_Content p{
+    text-align:justify;  /*用于文章页段落的两端对齐*/
+}
+.wp_entry img {   /*此样式，用于栏目只有一篇文章的模式，覆盖的是simplenews.css*/
+    max-width: 790px;
+}
+.info_nr img { 
+    max-width: 790px;   /*文章页的图片最大宽度*/
+}
+ /*以上图片设置适用于全局，居中需要手动设置。以下图片设置适用于加了p_img类的情况，图片可自适应父宽度，且自动居中*/
+.p_img img, .p_img_s img{  /*让p_img系列类下的图片宽度自适应*/
+    width:100%
+} 
+.p_img, .p_img_s{   /*用类单独控制文章中的图片属性，主要是控制居中以及去除段落首行缩进。该类用于p元素上*/
+   margin:15px auto;
+   text-indent:0;
+   width:790px;
+}
+.p_img_s{   /*适用于图不宜太大的文章*/
+   width:600px;
+}
+/*以下两条用于覆盖文章页的标题样式*/
+.info_head{
+  width:850px;
+  margin:0 auto;
+  height:100%;
+  padding:40px 0 20px;
+}
+.info_head span.Article_Title{   /*实现多行自动正常显示*/
+  height:100%;
+  line-height:1.5em;
+}
+.info_nr{   /*用于覆盖正文和发布信息栏的距离*/
+  margin-top:10px;
+}
+
+/*以下三行控制的元素待查*/
+.dtjt9_div_text {} 
+.dtjt9_div_text_title{}
+.dtjt9_div_text .dtjt9_div_text_title {}

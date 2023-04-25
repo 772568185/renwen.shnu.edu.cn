@@ -1,0 +1,214 @@
+.STFButton {
+	cursor: pointer;
+	cursor: hand;
+}
+.CategoryList {
+	color: maroon;
+	font-weight: bold;
+}
+.Author {
+	font-size: 14px;	
+	font-weight: bold;
+	color: #000000;
+    line-height:24px
+}
+.PublishDate { /*qz: 发布时间的样式，默认是#440088;margin-right默认为10*/
+    font-size: 11px;
+    font-weight: bold;
+    color: #666666;
+    margin-right: 0px;
+}
+.gray{
+	font-size: 11px;	
+	font-weight: bold;
+	color: gray;
+}
+.yey{
+	font-size: 14px;	
+	color: gray;
+}
+.shibo {
+	font-size: 12px;	
+	font-weight: normal;
+	color: #265948;
+}
+.heise{
+        font-size: 14px;	
+	font-weight: bold;
+	color: black;
+}
+
+.red{
+	font-size: 11px;	
+	color: #660000;}
+
+.green{
+	font-size: 11px;	
+	color: green;
+}
+.danlv{
+	font-size: 12px;	
+	color: #3a9c9a;
+}
+.danlv1{
+	font-size: 13px;	
+	color: #3a9c9a;
+        
+}
+.shenlv{
+	font-size: 13px;	
+	color: #3a9c9a;
+       
+        font-weight: bold;
+}
+.tuhuang{
+	font-size: 11px;	
+	font-weight: bold;
+	color: #4a3718;
+}
+.purple{
+	font-size: 14px;	
+	color: #9E4CB0;
+}
+
+
+.SearchPanel 
+{
+	text-align:center;
+}
+.shnuhead{
+	font-size: 20px;	
+	font-weight: bold;
+	
+}
+
+.shnudate{
+	font-size: 12px;	
+	color: #006600;
+}
+.shnucontent,.shnucontent p,.shnucontent div{
+	font-size: 14px;	
+	color: #000000;
+}
+.shnuen{
+font-size:12px;
+color: #559400;
+
+}
+
+
+A.viewsblack:link,A.viewsblack:active,A.viewsblack:hover,A.viewsblack:visited,.viewsblack:visited
+{
+	font-weight:normal;
+        color:#000000;
+       
+}
+A.shnutitle:link,A.shnutitle:active,A.shnutitle:hover,A.shnutitle:visited,.shnutitle:visited
+{
+	font-size: 12px;
+        color:#000000;
+       
+}
+A.white:link,A.white:active,A.white:hover,A.white:visited,.white:visited
+{
+	font-weight:normal;
+        color:#ffffff;
+        font-size:14px;
+}
+A.black:link,A.black:active,A.black:hover,A.black:visited,.black:visited
+{
+	  font-size:14px;
+        color:black;
+        line-height:20px;
+}
+A.heise:link,A.heise:active,A.heise:hover,A.heise:visited,.heise:visited
+{
+	  font-size:14px;
+        color:black;
+        font-weight:bold;
+}
+A.psy:link,A.psy:active,A.psy:hover,A.psy:visited,.psy:visited
+{
+	  font-size:14px;
+      color:#f63229;
+      font-weight:bold;
+	font-family:"黑体";
+}
+A.MoreArticlesLink2:link,A.MoreArticlesLink2:active,A.MoreArticlesLink2:hover,A.MoreArticlesLink2:visited,.MoreArticlesLink2:visited
+{
+	text-align:right;
+	font-weight:bold;
+        color:#0b478c;
+       
+}
+
+
+A.MoreArticlesLink3:link,A.MoreArticlesLink3:active,A.MoreArticlesLink3:hover,A.MoreArticlesLink3:visited,.MoreArticlesLink3:visited
+{
+	text-align:right;
+	font-weight:bold;
+        color:#660000;
+       
+}
+
+
+.MoreArticlesLink
+{
+	text-align:right;
+	font-weight:bold;
+        
+       
+}
+
+.CommentsLink{
+	line-height: 30px;
+	font-size: 1.15em;
+}
+
+.CommentsContainer {
+	border: 1px solid #CCCCCC; 
+	background-color: #FFFFFF; 
+	padding: 1px;
+}
+
+.CommentItemStyle {
+	background-color: #F8F8F8; 
+	padding: 5px; 
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.CommentAlternatingItemStyle {
+	padding: 5px; 
+}
+
+.CommentAuthor {
+	font-size: 1.25em; 
+	font-weight: bold;
+}
+.CommentDate {
+	font-size: .8em; 
+	color: #5F68AD;
+}
+.Reply {
+	font-style: italic;
+	background-color: #DDE8EA;
+	border: 1px dashed #ADB8BA;
+	padding: 3px;
+}
+
+.thumbnail {
+	margin: 5px;
+	margin-top: 0px;
+}
+/* This is required because if the details are rendered on a new page,
+the module is wrapped with a div with a class of DNNAligncenter*/
+.Article {
+	text-align:left;
+}
+
+/* 新增文章综合模块列出模板所需样式*/
+.PublishDateBlue {
+	font-size: 11px;
+	color: #1E67C5;
+}

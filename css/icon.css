@@ -1,0 +1,971 @@
+.icon-root {
+    background:url('../image/root.gif') no-repeat;
+}
+
+.icon-renyuan {
+    background:url('../image/renyuan.png') no-repeat;
+}
+
+.icon-folderRoot {
+    background:url('../image/folder_root1.gif') no-repeat;
+}
+
+.icon-permit {
+    background:url('../image/permit.gif') no-repeat;
+}
+
+.icon-set {
+    background:url('../image/set.gif') no-repeat;
+}
+
+.icon-setIssue {
+    background:url('../image/set.png') no-repeat;
+}
+
+.icon-config {
+    background:url('../image/config.gif') no-repeat;
+}
+
+.icon-bindColumn {
+    background:url('../image/bindColumn.gif') no-repeat;
+}
+.icon-mingxi {
+    background:url('../image/mingxi.png') no-repeat;
+}
+
+.icon-up {
+    background:url('../image/up.gif') no-repeat;
+}
+
+.icon-down {
+    background:url('../image/down.gif') no-repeat;
+}
+
+.icon-left {
+    background:url('../image/left.png') no-repeat;
+}
+
+.icon-right {
+    background:url('../image/right.png') no-repeat;
+}
+.icon-blank{
+    background:url('../image/blank2.gif') no-repeat;
+}
+.icon-add{
+    background:url('../image/edit_add.png') no-repeat;
+}
+.icon-module{
+    background:url('../image/new-moulde.png') no-repeat;
+}
+.icon-mobileModule{
+    background:url('../image/new-mobileModule.png') no-repeat;
+}
+.icon-source{
+    background:url('../image/new-source.png') no-repeat;
+}
+.icon-create{
+    background:url('../image/create.gif') no-repeat;
+}
+.icon-edit{
+    background:url('../image/pencil.png') no-repeat;
+}
+.icon-ghsyt{
+    background:url('../image/ghsyt.gif') no-repeat;
+}
+.icon-look{
+    background:url('../image/asd.png') no-repeat;
+}
+.icon-receive{
+    background:url('../image/jieshou.png') no-repeat;
+}
+.icon-fback{
+    background:url('../image/fback.png') no-repeat;
+}
+.icon-flowControl{
+    background:url('../image/qt.png') no-repeat;
+}
+.icon-remove{
+    background:url('../image/c.png') no-repeat;
+}
+.icon-template{
+    background:url('../image/qw.png') no-repeat;
+}
+.icon-folder{
+    background:url('../image/qe.png') no-repeat;
+}
+.icon-crosssite{
+    background:url('../image/qr.png') no-repeat;
+}
+.icon-visitcontrol{
+    background:url('../image/visitcontrol.png') no-repeat;
+}
+.icon-save{
+    background:url('../image/save.gif') no-repeat;
+}
+.icon-yifabu{
+    background:url('../image/qo.png') no-repeat;
+}
+.icon-download{
+    background:url('../image/download.gif') no-repeat;
+}
+.icon-cut{
+    background:url('../image/cut.png') no-repeat;
+}
+.icon-ok{
+    background:url('../image/d.png') no-repeat;
+}
+.icon-no{
+    background:url('../image/e.png') no-repeat;
+}
+.icon-cancel{
+    background:url('../image/qy.png') no-repeat;
+}
+.icon-commend{
+    background:url('../image/qu.png') no-repeat;
+}
+.icon-reload{
+    background:url('../image/reload.png') no-repeat;
+}
+.icon-search{
+    background:url('../image/search.png') no-repeat;
+}
+.icon-complete{
+    background:url('../image/qi.png') no-repeat;
+}
+.icon-flowHistory{
+    background:url('../image/liuchenglishi.png') no-repeat;
+}
+.icon-versionHistory{
+    background:url('../image/qp.png') no-repeat;
+}
+.icon-cancelComplete{
+    background:url('../image/cancelComplete.gif') no-repeat;
+}
+.icon-print{
+    background:url('../image/print.png') no-repeat;
+}
+.icon-help{
+    background:url('../image/help1.png') no-repeat;
+}
+.icon-undo{
+    background:url('../image/undo.png') no-repeat;
+}
+.icon-redo{
+    background:url('../image/redo.png') no-repeat;
+}
+.icon-back{
+    background:url('../image/reset.png') no-repeat;
+}
+.icon-static{
+    background:url('../image/static.gif') no-repeat;
+}
+.icon-go{
+    background:url('../image/go.png') no-repeat;
+}
+.icon-sum{
+    background:url('../image/sum.png') no-repeat;
+}
+.icon-tip{
+    background:url('../image/tip.png') no-repeat;
+}
+.icon-catchIssue{
+    background:url('../image/s12.png') no-repeat;
+}
+.icon-cancelIssue{
+    background:url('../image/qxfb.png') no-repeat;
+}
+.icon-mutilCancel{
+    background:url('../image/mutilCancel.gif') no-repeat;
+}
+.icon-issueClear{
+    background:url('../image/issueClear.gif') no-repeat;
+}
+.icon-setDefault{
+    background:url('../image/setDefault.gif') no-repeat;
+}
+.icon-rarDownload{
+    background:url('../image/rarDownload.gif') no-repeat;
+}
+.icon-copy{
+    background:url('../image/copy.gif') no-repeat;
+}
+.icon-contentEdit{
+    background:url('../image/contentEdit.png') no-repeat;
+}
+.icon-defaultColumnList{
+    background:url('../image/defaultColumnList.gif') no-repeat;
+}
+.icon-defaultArticle{
+    background:url('../image/defaultArticle.gif') no-repeat;
+}
+.icon-refresh{
+    background:url('../image/refresh.gif') no-repeat;
+}
+.icon-deleteClearly{
+    background:url('../image/cancelComplete.gif') no-repeat;
+}
+.icon-setSystemAdmin{
+    background:url('../image/setSystemAdmin.gif') no-repeat;
+}
+.icon-setOrg{
+    background:url('../image/setOrg.gif') no-repeat;
+}
+.icon-setUserOrg{
+    background:url('../image/setUserOrg.gif') no-repeat;
+}
+.icon-logout{
+    background:url('../image/zhuxiao.png') no-repeat;
+}
+.icon-account{
+    background:url('../image/account.png') no-repeat;
+}
+.icon-accountAlias{
+    background:url('../image/accountAlias.png') no-repeat;
+}
+
+
+.icon-mini-add{
+    background:url('../image/mini_add.png') no-repeat 2px 2px;
+}
+.icon-mini-edit{
+    background:url('../image/mini_edit.png') no-repeat 2px 2px;
+}
+.icon-mini-refresh{
+    background:url('../image/mini_refresh.png') no-repeat 3px 2px;
+}
+
+.icon-menu{
+    background:url('../image/menu2.gif') no-repeat;
+}
+
+.icon-menu-f{
+    width:0;
+}
+.icon-menu-s{
+    background:url('../image/dot_small.gif') no-repeat;
+    margin-left:-16px;
+}
+
+.icon-column-p{
+    background:url('../image/column-p.png') no-repeat;
+}
+.icon-column-s{
+    background:url('../image/column-s.png') no-repeat;
+}
+.icon-column-p-c{
+    background:url('../image/column-p-c.png') no-repeat;
+}
+.icon-column-s-c{
+    background:url('../image/column-s-c.png') no-repeat;
+}
+.icon-column-ip{
+    background:url('../image/column.png') no-repeat;
+}
+.icon-folder-ip{
+    background:url('../image/folder.png') no-repeat;
+}
+
+.icon-folder-r{
+    background:url('../image/folder_root1.gif') no-repeat;
+}
+.icon-folder-r1{
+    background:url('../image/folder_inFlow_child.png') no-repeat;
+}
+.icon-folder-r2{
+    background:url('../image/folder_inFlow.png') no-repeat;
+}
+.icon-folder-o{
+    background:url('../image/folder_o.gif') no-repeat;
+}
+.icon-folder-p{
+    background:url('../image/folder_p.gif') no-repeat;
+}
+.icon-folder-s{
+    background:url('../image/folder_s.gif') no-repeat;
+}
+
+.icon-org-r{
+    background:url('../image/folder_root.gif') no-repeat;
+}
+.icon-org-p{
+    background:url('../image/org-p.gif') no-repeat;
+}
+.icon-org-s{
+    background:url('../image/renyuan.gif') no-repeat;
+}
+
+.icon-group-s{
+    background:url('../image/group_r.png') no-repeat;
+}
+.icon-group-c{
+    background:url('../image/groupc.png') no-repeat;
+}
+.icon-group-g{
+    background:url('../image/group.png') no-repeat;
+}
+.icon-groupr{
+    background:url('../image/zu.png') no-repeat;
+}
+
+.icon-group-r{
+    background:url('../image/folder_root.gif') no-repeat;
+}
+
+.icon-site-p{
+    background:url('../image/site-p.gif') no-repeat;
+}
+.icon-site-s{
+    background:url('../image/site-s.gif') no-repeat;
+}
+
+.icon-user-p{
+    background:url('../image/user-p.gif') no-repeat;
+}
+.icon-user-s{
+    background:url('../image/user-s.gif') no-repeat;
+}
+
+.icon-webplus-p{
+    background:url('../image/webplus-p.gif') no-repeat;
+}
+.icon-webplus-s{
+    background:url('../image/webplus-s.gif') no-repeat;
+}
+.icon-siteEntityFolder-p{
+    background:url('../image/folder_p.gif') no-repeat;
+}
+.icon-siteEntityFolder-s{
+    background:url('../image/folder_s.gif') no-repeat;
+}
+.icon-portletAppDO-s{
+    background:url('http://web.shnu.edu.cn/_js/themes/icons/webplus-s.png') no-repeat;
+}
+.icon-portletAppDO-p{
+    background:url('http://web.shnu.edu.cn/_js/themes/icons/webplus-p.png') no-repeat;
+}
+.icon-portletDOfolder-p{
+    background:url('../image/folder-p.png') no-repeat;
+}
+.icon-portletDOfolder-s{
+    background:url('../image/folder-s.png') no-repeat;
+}
+.icon-portletSite-p{
+    background:url('../image/site-p.gif') no-repeat;
+}
+.icon-portletSite-s{
+    background:url('../image/site-s.gif') no-repeat;
+}
+.icon-publishSite-p{
+    background:url('../image/site-p.gif') no-repeat;
+}
+.icon-publishSite-s{
+    background:url('../image/site-s.gif') no-repeat;
+}
+.icon-publishSite-c{
+    background:url('../image/site-s.gif') no-repeat;
+}
+.icon-publishServer-root{
+    background:url('../image/fabufuwuqi.png') no-repeat;
+}
+.icon-publishServer-s{
+    background:url('../image/fuwuqi.png') no-repeat;
+}
+.icon-publishServer-p{
+    background:url('../image/fuwuqi.png') no-repeat;
+}
+.icon-codeclass{
+    background:url('../image/folder-s.png') no-repeat;
+}
+.icon-code{
+    background:url('../image/arrow3.png') no-repeat;
+}
+.icon-quanxian{
+    background:url('../image/quanxian.png') no-repeat;
+}
+.icon-module-p{
+    background:url('../image/webplus-p.gif') no-repeat;
+}
+.icon-module-s{
+    background:url('../image/webplus-s.gif') no-repeat;
+}
+.icon-role-r{
+    background:url('../image/role_r.png') no-repeat;
+}
+
+.icon-role-s{
+    background:url('../image/role_s.png') no-repeat;
+}
+.icon-role-p{
+    background:url('../image/role_p.png') no-repeat;
+}
+
+.icon-articleType-p{
+    background:url('../image/folder-p.png') no-repeat;
+}
+.icon-articleType-s{
+    background:url('../image/folder-s.png') no-repeat;
+}
+.icon-articleCategory-p{
+    background:url('../image/category-p.gif') no-repeat;
+}
+.icon-articleCategory-s{
+    background:url('../image/tree_file.gif') no-repeat;
+}
+.icon-tplBaseCategory-p{
+    background:url('../image/folder-p.png') no-repeat;
+}
+.icon-tplBaseCategory-s{
+    background:url('../image/folder-s.png') no-repeat;
+}
+.icon-siteRes{
+    background:url('../image/tip.png') no-repeat;
+}
+
+.icon-brush{
+    background:url('../image/brush.png') no-repeat;
+}
+
+.icon-quote{
+    background:url('../image/qr.png') no-repeat;
+}
+
+.icon-view{
+    background:url('../image/view.gif') no-repeat;
+}
+
+.icon-collector{
+    background:url('../image/caiji.png') no-repeat;
+}
+
+.icon-flow{
+    background:url('../image/liucheng.gif') no-repeat;
+}
+
+.icon-resycle{
+    background:url('../image/fback.png') no-repeat;
+}
+
+.icon-songshen{
+    background:url('../image/songshen.gif') no-repeat;
+}
+
+.icon-fabu{
+    background:url('../image/send.gif') no-repeat;
+}
+
+.icon-close{
+    background:url('../image/close.gif') no-repeat;
+}
+
+.icon-clear{
+    background:url('../image/clear.gif') no-repeat;
+}
+
+.icon-kuazhanIssue{
+    background:url('../image/kuazhan.png') no-repeat;
+}
+
+.icon-myindex-help{
+    background:url('../image/help2.png') no-repeat;
+}
+
+.icon-myindex-resource{
+    background:url('../image/resource.png') no-repeat;
+}
+
+.icon-myindex-message{
+    background:url('../image/message.png') no-repeat;
+}
+
+.icon-myindex-personal{
+    background:url('../image/personal.png') no-repeat;
+}
+
+.icon-myindex-calendar{
+    background:url('../image/calendar.png') no-repeat;
+}
+
+.icon-myindex-pending{
+    background:url('../image/pending.png') no-repeat;
+}
+
+.icon-myindex-monitor{
+    background:url('../image/monitor.png') no-repeat;
+}
+
+.icon-myindex-siteStat{
+    background:url('../image/siteStat.png') no-repeat;
+}
+
+.icon-myindex-pubStat{
+    background:url('../image/pubStat.png') no-repeat;
+}
+
+.icon-myindex-info{
+    background:url('../image/info.png') no-repeat;
+}
+
+.icon-article-sh{
+    background:url('../image/sh.png') no-repeat;
+}
+
+.icon-article-hy{
+    background:url('../image/hy.png') no-repeat;
+}
+
+.icon-article-fb{
+    background:url('../image/fb.png') no-repeat;
+}
+
+.icon-article-fbsz{
+    background:url('../image/fbsz.png') no-repeat;
+}
+
+.icon-article-qxgd{
+    background:url('../image/qxgd.png') no-repeat;
+}
+
+.icon-article-word{
+    background:url('../image/icon_doc.gif') no-repeat;
+}
+
+.icon-article-excel{
+    background:url('../image/icon_xls.gif') no-repeat;
+}
+
+.icon-bjmg{
+    background:url('../image/bjmg.png') no-repeat;
+}
+
+.icon-qxmg{
+    background:url('../image/qxmg.png') no-repeat;
+}
+
+.icon-tpl-backup{
+    background:url('../image/backup.png') no-repeat;
+}
+
+.icon-qingchu{
+    background:url('../image/qingchu.png') no-repeat;
+}
+
+.icon-like{
+    background:url('../image/like.png') no-repeat;
+}
+
+.icon-peizhi{
+    background:url('../image/peizhi.png') no-repeat;
+}
+
+.icon-zanting{
+    background:url('../image/zanting.png') no-repeat;
+}
+
+.icon-wenzhangleix{
+    background:url('../image/wenzhangleix.png') no-repeat;
+}
+
+.icon-wenjianjialeix{
+    background:url('../image/wenjianjialeix.png') no-repeat;
+}
+
+.icon-cslj{
+    background:url('../image/cslj.png') no-repeat;
+}
+.icon-cxjb{
+    background:url('../image/cxjb.png') no-repeat;
+}
+.icon-zddy{
+    background:url('../image/zddy.png') no-repeat;
+}
+.icon-guanlian{
+    background:url('../image/guanlian.png') no-repeat;
+}
+.icon-rss{
+    background:url('../image/rss.png') no-repeat;
+}
+.icon-yfbwd{
+    background:url('../image/yfbwd.png') no-repeat;
+}
+.icon-cjzt{
+    background:url('../image/cjzt.png') no-repeat;
+}
+
+.icon-wenjuan {
+    background:url('../image/wenjuan.png') no-repeat;
+}
+
+.icon-wjdc-p{
+    background:url('../image/wjdc-p.png') no-repeat;
+}
+
+.icon-ly-p{
+    background:url('../image/ly-p.png') no-repeat;
+}
+
+.icon-ly-s{
+    background:url('../image/ly-s.png') no-repeat;
+}
+
+.icon-hbwjj{
+    background:url('../image/hbwjj.gif') no-repeat;
+}
+.icon-ghsyt{
+    background:url('../image/ghsyt.gif') no-repeat;
+}
+.icon-userOn{
+    background:url('../image/useron.png') no-repeat;
+}
+.icon-userOff{
+    background:url('../image/useroff.png') no-repeat;
+}
+.icon-newTalk{
+    background:url('../image/newTalk.gif') no-repeat;
+}
+.icon-ref{
+    background:url('../image/qr.png') no-repeat;
+}
+.icon-page{
+    background:url('../image/site-s.gif') no-repeat;
+}
+
+.icon-upload{
+    background:url('../image/up.gif') no-repeat;
+}
+.icon-moveTo{
+    background:url('../image/moveTo.png') no-repeat;
+}
+.icon-reply{
+    background:url('../image/reply.png') no-repeat;
+}
+.icon-read{
+    background:url('../image/exam_read.png') no-repeat;
+}
+.icon-unread{
+    background:url('../image/exam_unread.png') no-repeat;
+}
+.icon-browseRes{
+    background:url('../image/liulan.png') no-repeat;
+}
+
+.icon-siteImport{
+    background:url('../image/siteImport.png') no-repeat;
+}
+.icon-siteExport{
+    background:url('../image/siteExport.png') no-repeat;
+}
+.icon-siteAttriExport{
+    background:url('../image/siteAttriExport.png') no-repeat;
+}
+
+.icon-sort{
+    background:url('../image/sort.png') no-repeat;
+}
+
+.icon-sortBeforeA{
+    background:url('../image/sortBeforeA.png') no-repeat;
+}
+
+.icon-sortAfterA{
+    background:url('../image/sortAfterA.png') no-repeat;
+}
+.icon-unbind{
+    background:url('../image/unbind.gif') no-repeat;
+}
+
+.icon-article-wishColumn{
+    background:url('../image/artWishColumn.png') no-repeat;
+}
+
+.icon-article-on{
+    background:url('../image/on.gif') no-repeat;
+}
+
+.icon-article-off{
+    background:url('../image/off.gif') no-repeat;
+}
+.icon-chl{
+    background:url('../image/chl.png') no-repeat;
+}
+.icon-catagory{
+    background:url('../image/catagory.png') no-repeat;
+}
+.icon-saveAndPub{
+    background:url('../image/saveAndPub.png') no-repeat;
+}
+.icon-resExport{
+    background:url('../image/resExport.png') no-repeat;
+}
+
+.icon-column-d-p{
+    background:url('../image/column-d-p.png') no-repeat;
+}
+.icon-column-d-c{
+    background:url('../image/column-d-p.png') no-repeat;
+}
+
+.icon-ucp-xb{
+    background:url('../image/ucp_xb.png') no-repeat;
+}
+.icon-ucp-sz{
+    background:url('../image/ucp_sz.png') no-repeat;
+}
+.icon-ucp-sjx{
+    background:url('../image/ucp_sjx.png') no-repeat;
+}
+.icon-ucp-hsz{
+    background:url('../image/ucp_hsz.png') no-repeat;
+}
+.icon-ucp-fjx{
+    background:url('../image/ucp_fjx.png') no-repeat;
+}
+.icon-ucp-cgx{
+    background:url('../image/ucp_cgx.png') no-repeat;
+}
+.icon-ucp-bq{
+    background:url('../image/ucp_bq.png') no-repeat;
+}
+.icon-secret-sh{
+    background:url('../image/secret_sh.png') no-repeat;
+}
+.icon-secret-ss{
+    background:url('../image/secret_ss.png') no-repeat;
+}
+.icon-article-bathUpload{
+    background:url('../image/batchUpload.png') no-repeat;
+}
+.icon-article-submission{
+    background:url('../image/submission.gif') no-repeat;
+}
+.icon-article-untread{
+    background:url('../image/untread.gif') no-repeat;
+}
+.icon-article-savePreview{
+    background:url('../image/savePreview.png') no-repeat;
+}
+.icon-article-emptyRestart{
+    background:url('../image/emptyRestart.png') no-repeat;
+}
+.icon-article-auditing{
+    background:url('../image/auditing.png') no-repeat;
+}
+.icon-dongjie{
+    background:url('../image/dongjie.png') no-repeat;
+}
+.icon-columnSet{
+    background:url('../image/config.gif') no-repeat;
+}
+.icon-ipLimit{
+    background:url('../image/ipLimit.png') no-repeat;
+}
+.icon-maincolumn{
+    background:url('../image/mc.png') no-repeat;
+}
+.icon-add-arttype{
+    background:url('../image/addwzlx.png') no-repeat;
+}
+.icon-remove-arttype{
+    background:url('../image/removewzlx.png') no-repeat;
+}
+.icon-imgLibFolder-p{
+    background:url('../image/imgLibFolder_p.png') no-repeat;
+}
+.icon-imgLibFolder-r{
+    background:url('../image/imgLibFolder_p.png') no-repeat;
+}
+.icon-imgLibFolder-s{
+    background:url('../image/imgLibFolder_s.png') no-repeat;
+}
+
+.icon-imgFolder-s{
+    background:url('../image/imgFolder_s.png') no-repeat;
+}
+.icon-videoLibFolder-r{
+    background:url('../image/videoLibFolder_p.png') no-repeat;
+}
+.icon-videoLibFolder-p{
+    background:url('../image/videoLibFolder_p.png') no-repeat;
+}
+
+.icon-videoLibFolder-s{
+    background:url('../image/videoLibFolder_s.png') no-repeat;
+}
+
+.icon-videoFolder-s{
+    background:url('../image/videoFolder_s.png') no-repeat;
+}
+.icon-trailerFolder-p{
+    background:url('../image/trailerFolder_p.png') no-repeat;
+}
+
+.icon-trailerFolder-s{
+    background:url('../image/trailerFolder_s.png') no-repeat;
+}
+.icon-newsFolder-p{
+    background:url('../image/newsFolder_p.gif') no-repeat;
+}
+.icon-newsFolder-s{
+    background:url('../image/newsFolder_s.gif') no-repeat;
+}
+
+.icon-twSurveySet-p{
+    background:url('../image/twSurveySet_p.png') no-repeat;
+}
+.icon-twSurveySet-s{
+    background:url('../image/twSurveySet_s.png') no-repeat;
+}
+.icon-twSurveyTheme-s{
+    background:url('../image/twSurveyTheme_s.png') no-repeat;
+}
+
+.icon-issueFolder-s{
+    background:url('../image/issueFolder_s.png') no-repeat;
+}
+
+.icon-issueFolder-p{
+    background: url('../image/issueFolder_p.png') no-repeat;
+}
+
+.icon-magazineFolder-s{
+    background:url('../image/magazineFolder_s.png') no-repeat;
+}
+
+.icon-magazineFolder-p{
+    background: url('../image/magazineFolder_p.png') no-repeat;
+}
+
+.icon-pageFolder-s{
+    background:url('../image/pageFolder_s.png') no-repeat;
+}
+
+.icon-pageFolder-p{
+    background: url('../image/pageFolder_p.png') no-repeat;
+}
+
+.icon-wechatMenu{
+    background: url('../image/wechat_menu.png') no-repeat;
+}
+
+.icon-wechatMaterial-p{
+    background: url('../image/wechat_material_p.png') no-repeat;
+}
+
+.icon-wechatMaterial-s{
+    background: url('../image/wechat_material_s.png') no-repeat;
+}
+.icon-docLibFolder-r{
+    background: url('../image/docLibFolder_r.png') no-repeat;
+}
+.icon-docLibFolder-p{
+    background: url('../image/docLibFolder_p.png') no-repeat;
+}
+
+.icon-docLibFolder-s{
+    background: url('../image/docLibFolder_s.png') no-repeat;
+}
+.icon-resFolder-p{
+    background: url('../image/resFolder_p.png') no-repeat;
+}
+
+.icon-resFolder-s{
+    background: url('../image/resFolder_s.png') no-repeat;
+}
+.icon-draw{
+    background: url('../image/draw.png') no-repeat;
+}
+
+.icon-disableFun{
+    background: url('../image/disableFun.png') no-repeat;
+}
+
+.icon-disableUser{
+    background: url('../image/disableUser.png') no-repeat;
+}
+
+.icon-disableIP{
+    background: url('../image/disableIP.png') no-repeat;
+}
+
+.icon-belive{
+    background: url('../image/belive.png') no-repeat;
+}
+
+.icon-clearAll{
+    background: url('../image/clearAll.png') no-repeat;
+}
+.icon-detail{
+    background: url('../image/asd.gif') no-repeat;
+}
+.icon-funMng{
+    background: url('../image/fun_mng.png') no-repeat;
+}
+.icon-libMng{
+    background: url('../image/lib_mng.png') no-repeat;
+}
+.icon-folder-export{
+    background:url('../image/folderExport.png') no-repeat;
+}
+.icon-sendMail{
+    background:url('../image/sendMail.png') no-repeat;
+}
+.icon-dw{
+    background:url('../image/dw.png') no-repeat;
+}
+.icon-export {
+    background:url('../image/export.png') no-repeat;
+}
+.icon-import {
+    background:url('../image/import.png') no-repeat;
+}
+
+.icon-teaImp {
+    background:url('../image/teaImp.png') no-repeat;
+}
+
+.icon-syncSpeed {
+    background:url('../image/publishSyncSpeed.png') no-repeat;
+}
+
+.icon-orgRecommend{
+    background:url('../image/orgRecommend.png') no-repeat;
+}
+
+.icon-schoolRecommend{
+    background:url('../image/schoolRecommend.png') no-repeat;
+}
+.icon-subManage{
+    background:url('../image/folder_root.png') no-repeat;
+}
+
+
+.icon-peopleGroup{
+    background:url('../image/peopleGroup.png') no-repeat;
+}
+.icon-classify{
+    background:url('../image/classify.png') no-repeat;
+}
+.icon-subDefault{
+    background:url('../image/subDefault.png') no-repeat;
+}
+.icon-disSubDefault{
+    background:url('../image/disDefault.png') no-repeat;
+}
+.icon-recommend{
+    background:url('../image/recommend.png') no-repeat;
+}
+.icon-disRecommend{
+    background:url('../image/disRecommend.png') no-repeat;
+}
+.icon-siminteractType-root{
+    background:url('../image/folder_root1.gif') no-repeat;
+}
+.icon-siminteractType-p{
+    background:url('../image/category-p.gif') no-repeat;
+}
+.icon-siminteractType-s{
+    background:url('../image/tree_file.gif') no-repeat;
+}
+.icon-scanning{
+    background:url('../image/scanning.png') no-repeat;
+}
+
